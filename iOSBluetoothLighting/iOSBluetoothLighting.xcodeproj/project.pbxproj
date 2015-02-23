@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E8A4431A9BB91C00FDD039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A4421A9BB91C00FDD039 /* main.m */; };
+		14E8A4461A9BB91C00FDD039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A4451A9BB91C00FDD039 /* AppDelegate.m */; };
+		14E8A4491A9BB91C00FDD039 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A4481A9BB91C00FDD039 /* ViewController.m */; };
+		14E8A44C1A9BB91C00FDD039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E8A44A1A9BB91C00FDD039 /* Main.storyboard */; };
+		14E8A44E1A9BB91C00FDD039 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E8A44D1A9BB91C00FDD039 /* Images.xcassets */; };
+		14E8A4511A9BB91C00FDD039 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E8A44F1A9BB91C00FDD039 /* LaunchScreen.xib */; };
+		14E8A45D1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A45C1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14E8A4571A9BB91C00FDD039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E8A4351A9BB91C00FDD039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E8A43C1A9BB91C00FDD039;
+			remoteInfo = iOSBluetoothLighting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E8A43D1A9BB91C00FDD039 /* iOSBluetoothLighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBluetoothLighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E8A4411A9BB91C00FDD039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E8A4421A9BB91C00FDD039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E8A4441A9BB91C00FDD039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14E8A4451A9BB91C00FDD039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14E8A4471A9BB91C00FDD039 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14E8A4481A9BB91C00FDD039 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14E8A44B1A9BB91C00FDD039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14E8A44D1A9BB91C00FDD039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14E8A4501A9BB91C00FDD039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14E8A4561A9BB91C00FDD039 /* iOSBluetoothLightingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSBluetoothLightingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E8A45B1A9BB91C00FDD039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E8A45C1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSBluetoothLightingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E8A43A1A9BB91C00FDD039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8A4531A9BB91C00FDD039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E8A4341A9BB91C00FDD039 = {
+			isa = PBXGroup;
+			children = (
+				14E8A43F1A9BB91C00FDD039 /* iOSBluetoothLighting */,
+				14E8A4591A9BB91C00FDD039 /* iOSBluetoothLightingTests */,
+				14E8A43E1A9BB91C00FDD039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E8A43E1A9BB91C00FDD039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A43D1A9BB91C00FDD039 /* iOSBluetoothLighting.app */,
+				14E8A4561A9BB91C00FDD039 /* iOSBluetoothLightingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E8A43F1A9BB91C00FDD039 /* iOSBluetoothLighting */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A4441A9BB91C00FDD039 /* AppDelegate.h */,
+				14E8A4451A9BB91C00FDD039 /* AppDelegate.m */,
+				14E8A4471A9BB91C00FDD039 /* ViewController.h */,
+				14E8A4481A9BB91C00FDD039 /* ViewController.m */,
+				14E8A44A1A9BB91C00FDD039 /* Main.storyboard */,
+				14E8A44D1A9BB91C00FDD039 /* Images.xcassets */,
+				14E8A44F1A9BB91C00FDD039 /* LaunchScreen.xib */,
+				14E8A4401A9BB91C00FDD039 /* Supporting Files */,
+			);
+			path = iOSBluetoothLighting;
+			sourceTree = "<group>";
+		};
+		14E8A4401A9BB91C00FDD039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A4411A9BB91C00FDD039 /* Info.plist */,
+				14E8A4421A9BB91C00FDD039 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14E8A4591A9BB91C00FDD039 /* iOSBluetoothLightingTests */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A45C1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m */,
+				14E8A45A1A9BB91C00FDD039 /* Supporting Files */,
+			);
+			path = iOSBluetoothLightingTests;
+			sourceTree = "<group>";
+		};
+		14E8A45A1A9BB91C00FDD039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A45B1A9BB91C00FDD039 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E8A43C1A9BB91C00FDD039 /* iOSBluetoothLighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E8A4601A9BB91C00FDD039 /* Build configuration list for PBXNativeTarget "iOSBluetoothLighting" */;
+			buildPhases = (
+				14E8A4391A9BB91C00FDD039 /* Sources */,
+				14E8A43A1A9BB91C00FDD039 /* Frameworks */,
+				14E8A43B1A9BB91C00FDD039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSBluetoothLighting;
+			productName = iOSBluetoothLighting;
+			productReference = 14E8A43D1A9BB91C00FDD039 /* iOSBluetoothLighting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E8A4551A9BB91C00FDD039 /* iOSBluetoothLightingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E8A4631A9BB91C00FDD039 /* Build configuration list for PBXNativeTarget "iOSBluetoothLightingTests" */;
+			buildPhases = (
+				14E8A4521A9BB91C00FDD039 /* Sources */,
+				14E8A4531A9BB91C00FDD039 /* Frameworks */,
+				14E8A4541A9BB91C00FDD039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E8A4581A9BB91C00FDD039 /* PBXTargetDependency */,
+			);
+			name = iOSBluetoothLightingTests;
+			productName = iOSBluetoothLightingTests;
+			productReference = 14E8A4561A9BB91C00FDD039 /* iOSBluetoothLightingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E8A4351A9BB91C00FDD039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Mutual Mobile";
+				TargetAttributes = {
+					14E8A43C1A9BB91C00FDD039 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					14E8A4551A9BB91C00FDD039 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 14E8A43C1A9BB91C00FDD039;
+					};
+				};
+			};
+			buildConfigurationList = 14E8A4381A9BB91C00FDD039 /* Build configuration list for PBXProject "iOSBluetoothLighting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E8A4341A9BB91C00FDD039;
+			productRefGroup = 14E8A43E1A9BB91C00FDD039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E8A43C1A9BB91C00FDD039 /* iOSBluetoothLighting */,
+				14E8A4551A9BB91C00FDD039 /* iOSBluetoothLightingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E8A43B1A9BB91C00FDD039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8A44C1A9BB91C00FDD039 /* Main.storyboard in Resources */,
+				14E8A4511A9BB91C00FDD039 /* LaunchScreen.xib in Resources */,
+				14E8A44E1A9BB91C00FDD039 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8A4541A9BB91C00FDD039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E8A4391A9BB91C00FDD039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8A4491A9BB91C00FDD039 /* ViewController.m in Sources */,
+				14E8A4461A9BB91C00FDD039 /* AppDelegate.m in Sources */,
+				14E8A4431A9BB91C00FDD039 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8A4521A9BB91C00FDD039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8A45D1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E8A4581A9BB91C00FDD039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E8A43C1A9BB91C00FDD039 /* iOSBluetoothLighting */;
+			targetProxy = 14E8A4571A9BB91C00FDD039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14E8A44A1A9BB91C00FDD039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E8A44B1A9BB91C00FDD039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14E8A44F1A9BB91C00FDD039 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E8A4501A9BB91C00FDD039 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E8A45E1A9BB91C00FDD039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14E8A45F1A9BB91C00FDD039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E8A4611A9BB91C00FDD039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSBluetoothLighting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14E8A4621A9BB91C00FDD039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSBluetoothLighting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14E8A4641A9BB91C00FDD039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSBluetoothLightingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSBluetoothLighting.app/iOSBluetoothLighting";
+			};
+			name = Debug;
+		};
+		14E8A4651A9BB91C00FDD039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSBluetoothLightingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSBluetoothLighting.app/iOSBluetoothLighting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E8A4381A9BB91C00FDD039 /* Build configuration list for PBXProject "iOSBluetoothLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8A45E1A9BB91C00FDD039 /* Debug */,
+				14E8A45F1A9BB91C00FDD039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E8A4601A9BB91C00FDD039 /* Build configuration list for PBXNativeTarget "iOSBluetoothLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8A4611A9BB91C00FDD039 /* Debug */,
+				14E8A4621A9BB91C00FDD039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14E8A4631A9BB91C00FDD039 /* Build configuration list for PBXNativeTarget "iOSBluetoothLightingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8A4641A9BB91C00FDD039 /* Debug */,
+				14E8A4651A9BB91C00FDD039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E8A4351A9BB91C00FDD039 /* Project object */;
+}
