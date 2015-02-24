@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BeanBrowserController.h
 //  iOSBluetoothLighting
 //
 //  Created by Sean McMains on 2/23/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BeanBrowserController : UITableViewController
 
 @end
-

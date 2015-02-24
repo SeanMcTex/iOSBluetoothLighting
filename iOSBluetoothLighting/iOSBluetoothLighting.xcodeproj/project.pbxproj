@@ -1,955 +1,494 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>03BA3A48D7F12DFF4D23EB6C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CF309DF41CEE970B643C928A</string>
-				<string>FBC5E3D6CA92BC122B83A918</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4341A9BB91C00FDD039</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14E8A43F1A9BB91C00FDD039</string>
-				<string>14E8A4591A9BB91C00FDD039</string>
-				<string>14E8A43E1A9BB91C00FDD039</string>
-				<string>03BA3A48D7F12DFF4D23EB6C</string>
-				<string>BBFDD9C3CE76E2EB3C12263A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4351A9BB91C00FDD039</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0620</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Mutual Mobile</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>14E8A43C1A9BB91C00FDD039</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.2</string>
-					</dict>
-					<key>14E8A4551A9BB91C00FDD039</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.2</string>
-						<key>TestTargetID</key>
-						<string>14E8A43C1A9BB91C00FDD039</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>14E8A4381A9BB91C00FDD039</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>14E8A4341A9BB91C00FDD039</string>
-			<key>productRefGroup</key>
-			<string>14E8A43E1A9BB91C00FDD039</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>14E8A43C1A9BB91C00FDD039</string>
-				<string>14E8A4551A9BB91C00FDD039</string>
-			</array>
-		</dict>
-		<key>14E8A4381A9BB91C00FDD039</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>14E8A45E1A9BB91C00FDD039</string>
-				<string>14E8A45F1A9BB91C00FDD039</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>14E8A4391A9BB91C00FDD039</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>14E8A4491A9BB91C00FDD039</string>
-				<string>14E8A4461A9BB91C00FDD039</string>
-				<string>14E8A4431A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>14E8A43A1A9BB91C00FDD039</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CF9F833220FE3CB829C20D4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>14E8A43B1A9BB91C00FDD039</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>14E8A44C1A9BB91C00FDD039</string>
-				<string>14E8A4511A9BB91C00FDD039</string>
-				<string>14E8A44E1A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>14E8A43C1A9BB91C00FDD039</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>14E8A4601A9BB91C00FDD039</string>
-			<key>buildPhases</key>
-			<array>
-				<string>82C34F8976A7EC6B4701E912</string>
-				<string>14E8A4391A9BB91C00FDD039</string>
-				<string>14E8A43A1A9BB91C00FDD039</string>
-				<string>14E8A43B1A9BB91C00FDD039</string>
-				<string>8CD0D1690A62F026F2575344</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>iOSBluetoothLighting</string>
-			<key>productName</key>
-			<string>iOSBluetoothLighting</string>
-			<key>productReference</key>
-			<string>14E8A43D1A9BB91C00FDD039</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>14E8A43D1A9BB91C00FDD039</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iOSBluetoothLighting.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>14E8A43E1A9BB91C00FDD039</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14E8A43D1A9BB91C00FDD039</string>
-				<string>14E8A4561A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A43F1A9BB91C00FDD039</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14E8A4441A9BB91C00FDD039</string>
-				<string>14E8A4451A9BB91C00FDD039</string>
-				<string>14E8A4471A9BB91C00FDD039</string>
-				<string>14E8A4481A9BB91C00FDD039</string>
-				<string>14E8A44A1A9BB91C00FDD039</string>
-				<string>14E8A44D1A9BB91C00FDD039</string>
-				<string>14E8A44F1A9BB91C00FDD039</string>
-				<string>14E8A4401A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>iOSBluetoothLighting</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4401A9BB91C00FDD039</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14E8A4411A9BB91C00FDD039</string>
-				<string>14E8A4421A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4411A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4421A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4431A9BB91C00FDD039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14E8A4421A9BB91C00FDD039</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14E8A4441A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4451A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4461A9BB91C00FDD039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14E8A4451A9BB91C00FDD039</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14E8A4471A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4481A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4491A9BB91C00FDD039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14E8A4481A9BB91C00FDD039</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14E8A44A1A9BB91C00FDD039</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14E8A44B1A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A44B1A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A44C1A9BB91C00FDD039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14E8A44A1A9BB91C00FDD039</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14E8A44D1A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A44E1A9BB91C00FDD039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14E8A44D1A9BB91C00FDD039</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14E8A44F1A9BB91C00FDD039</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14E8A4501A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4501A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A4511A9BB91C00FDD039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14E8A44F1A9BB91C00FDD039</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14E8A4521A9BB91C00FDD039</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>14E8A45D1A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>14E8A4531A9BB91C00FDD039</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>14E8A4541A9BB91C00FDD039</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>14E8A4551A9BB91C00FDD039</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>14E8A4631A9BB91C00FDD039</string>
-			<key>buildPhases</key>
-			<array>
-				<string>14E8A4521A9BB91C00FDD039</string>
-				<string>14E8A4531A9BB91C00FDD039</string>
-				<string>14E8A4541A9BB91C00FDD039</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>14E8A4581A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>iOSBluetoothLightingTests</string>
-			<key>productName</key>
-			<string>iOSBluetoothLightingTests</string>
-			<key>productReference</key>
-			<string>14E8A4561A9BB91C00FDD039</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>14E8A4561A9BB91C00FDD039</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iOSBluetoothLightingTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>14E8A4571A9BB91C00FDD039</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>14E8A4351A9BB91C00FDD039</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>14E8A43C1A9BB91C00FDD039</string>
-			<key>remoteInfo</key>
-			<string>iOSBluetoothLighting</string>
-		</dict>
-		<key>14E8A4581A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>14E8A43C1A9BB91C00FDD039</string>
-			<key>targetProxy</key>
-			<string>14E8A4571A9BB91C00FDD039</string>
-		</dict>
-		<key>14E8A4591A9BB91C00FDD039</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14E8A45C1A9BB91C00FDD039</string>
-				<string>14E8A45A1A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>iOSBluetoothLightingTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A45A1A9BB91C00FDD039</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14E8A45B1A9BB91C00FDD039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A45B1A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A45C1A9BB91C00FDD039</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>iOSBluetoothLightingTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14E8A45D1A9BB91C00FDD039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14E8A45C1A9BB91C00FDD039</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14E8A45E1A9BB91C00FDD039</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>14E8A45F1A9BB91C00FDD039</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>14E8A4601A9BB91C00FDD039</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>14E8A4611A9BB91C00FDD039</string>
-				<string>14E8A4621A9BB91C00FDD039</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>14E8A4611A9BB91C00FDD039</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CF309DF41CEE970B643C928A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iOSBluetoothLighting/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>14E8A4621A9BB91C00FDD039</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FBC5E3D6CA92BC122B83A918</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>iOSBluetoothLighting/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>14E8A4631A9BB91C00FDD039</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>14E8A4641A9BB91C00FDD039</string>
-				<string>14E8A4651A9BB91C00FDD039</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>14E8A4641A9BB91C00FDD039</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>iOSBluetoothLightingTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/iOSBluetoothLighting.app/iOSBluetoothLighting</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>14E8A4651A9BB91C00FDD039</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>iOSBluetoothLightingTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/iOSBluetoothLighting.app/iOSBluetoothLighting</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4FF816FC86F3FD7F07495BD2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-iOSBluetoothLighting.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>82C34F8976A7EC6B4701E912</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>8CD0D1690A62F026F2575344</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-iOSBluetoothLighting/Pods-iOSBluetoothLighting-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BBFDD9C3CE76E2EB3C12263A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4FF816FC86F3FD7F07495BD2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CF309DF41CEE970B643C928A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iOSBluetoothLighting.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-iOSBluetoothLighting/Pods-iOSBluetoothLighting.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CF9F833220FE3CB829C20D4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4FF816FC86F3FD7F07495BD2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FBC5E3D6CA92BC122B83A918</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iOSBluetoothLighting.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-iOSBluetoothLighting/Pods-iOSBluetoothLighting.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>14E8A4351A9BB91C00FDD039</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E8A4431A9BB91C00FDD039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A4421A9BB91C00FDD039 /* main.m */; };
+		14E8A4461A9BB91C00FDD039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A4451A9BB91C00FDD039 /* AppDelegate.m */; };
+		14E8A44C1A9BB91C00FDD039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E8A44A1A9BB91C00FDD039 /* Main.storyboard */; };
+		14E8A44E1A9BB91C00FDD039 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E8A44D1A9BB91C00FDD039 /* Images.xcassets */; };
+		14E8A4511A9BB91C00FDD039 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E8A44F1A9BB91C00FDD039 /* LaunchScreen.xib */; };
+		14E8A45D1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A45C1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m */; };
+		14E8A4681A9BBDAF00FDD039 /* BeanBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A4671A9BBDAF00FDD039 /* BeanBrowserController.m */; };
+		CF9F833220FE3CB829C20D4B /* libPods-iOSBluetoothLighting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF816FC86F3FD7F07495BD2 /* libPods-iOSBluetoothLighting.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14E8A4571A9BB91C00FDD039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E8A4351A9BB91C00FDD039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E8A43C1A9BB91C00FDD039;
+			remoteInfo = iOSBluetoothLighting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E8A43D1A9BB91C00FDD039 /* iOSBluetoothLighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBluetoothLighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E8A4411A9BB91C00FDD039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E8A4421A9BB91C00FDD039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E8A4441A9BB91C00FDD039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14E8A4451A9BB91C00FDD039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14E8A44B1A9BB91C00FDD039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14E8A44D1A9BB91C00FDD039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14E8A4501A9BB91C00FDD039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14E8A4561A9BB91C00FDD039 /* iOSBluetoothLightingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSBluetoothLightingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E8A45B1A9BB91C00FDD039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E8A45C1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSBluetoothLightingTests.m; sourceTree = "<group>"; };
+		14E8A4661A9BBDAF00FDD039 /* BeanBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanBrowserController.h; sourceTree = "<group>"; };
+		14E8A4671A9BBDAF00FDD039 /* BeanBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanBrowserController.m; sourceTree = "<group>"; };
+		4FF816FC86F3FD7F07495BD2 /* libPods-iOSBluetoothLighting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSBluetoothLighting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF309DF41CEE970B643C928A /* Pods-iOSBluetoothLighting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBluetoothLighting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBluetoothLighting/Pods-iOSBluetoothLighting.debug.xcconfig"; sourceTree = "<group>"; };
+		FBC5E3D6CA92BC122B83A918 /* Pods-iOSBluetoothLighting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBluetoothLighting.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBluetoothLighting/Pods-iOSBluetoothLighting.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E8A43A1A9BB91C00FDD039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9F833220FE3CB829C20D4B /* libPods-iOSBluetoothLighting.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8A4531A9BB91C00FDD039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BA3A48D7F12DFF4D23EB6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF309DF41CEE970B643C928A /* Pods-iOSBluetoothLighting.debug.xcconfig */,
+				FBC5E3D6CA92BC122B83A918 /* Pods-iOSBluetoothLighting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14E8A4341A9BB91C00FDD039 = {
+			isa = PBXGroup;
+			children = (
+				14E8A43F1A9BB91C00FDD039 /* iOSBluetoothLighting */,
+				14E8A4591A9BB91C00FDD039 /* iOSBluetoothLightingTests */,
+				14E8A43E1A9BB91C00FDD039 /* Products */,
+				03BA3A48D7F12DFF4D23EB6C /* Pods */,
+				BBFDD9C3CE76E2EB3C12263A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14E8A43E1A9BB91C00FDD039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A43D1A9BB91C00FDD039 /* iOSBluetoothLighting.app */,
+				14E8A4561A9BB91C00FDD039 /* iOSBluetoothLightingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E8A43F1A9BB91C00FDD039 /* iOSBluetoothLighting */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A4441A9BB91C00FDD039 /* AppDelegate.h */,
+				14E8A4451A9BB91C00FDD039 /* AppDelegate.m */,
+				14E8A44A1A9BB91C00FDD039 /* Main.storyboard */,
+				14E8A44D1A9BB91C00FDD039 /* Images.xcassets */,
+				14E8A44F1A9BB91C00FDD039 /* LaunchScreen.xib */,
+				14E8A4401A9BB91C00FDD039 /* Supporting Files */,
+				14E8A4661A9BBDAF00FDD039 /* BeanBrowserController.h */,
+				14E8A4671A9BBDAF00FDD039 /* BeanBrowserController.m */,
+			);
+			path = iOSBluetoothLighting;
+			sourceTree = "<group>";
+		};
+		14E8A4401A9BB91C00FDD039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A4411A9BB91C00FDD039 /* Info.plist */,
+				14E8A4421A9BB91C00FDD039 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14E8A4591A9BB91C00FDD039 /* iOSBluetoothLightingTests */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A45C1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m */,
+				14E8A45A1A9BB91C00FDD039 /* Supporting Files */,
+			);
+			path = iOSBluetoothLightingTests;
+			sourceTree = "<group>";
+		};
+		14E8A45A1A9BB91C00FDD039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E8A45B1A9BB91C00FDD039 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBFDD9C3CE76E2EB3C12263A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FF816FC86F3FD7F07495BD2 /* libPods-iOSBluetoothLighting.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E8A43C1A9BB91C00FDD039 /* iOSBluetoothLighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E8A4601A9BB91C00FDD039 /* Build configuration list for PBXNativeTarget "iOSBluetoothLighting" */;
+			buildPhases = (
+				82C34F8976A7EC6B4701E912 /* Check Pods Manifest.lock */,
+				14E8A4391A9BB91C00FDD039 /* Sources */,
+				14E8A43A1A9BB91C00FDD039 /* Frameworks */,
+				14E8A43B1A9BB91C00FDD039 /* Resources */,
+				8CD0D1690A62F026F2575344 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSBluetoothLighting;
+			productName = iOSBluetoothLighting;
+			productReference = 14E8A43D1A9BB91C00FDD039 /* iOSBluetoothLighting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E8A4551A9BB91C00FDD039 /* iOSBluetoothLightingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E8A4631A9BB91C00FDD039 /* Build configuration list for PBXNativeTarget "iOSBluetoothLightingTests" */;
+			buildPhases = (
+				14E8A4521A9BB91C00FDD039 /* Sources */,
+				14E8A4531A9BB91C00FDD039 /* Frameworks */,
+				14E8A4541A9BB91C00FDD039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E8A4581A9BB91C00FDD039 /* PBXTargetDependency */,
+			);
+			name = iOSBluetoothLightingTests;
+			productName = iOSBluetoothLightingTests;
+			productReference = 14E8A4561A9BB91C00FDD039 /* iOSBluetoothLightingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E8A4351A9BB91C00FDD039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Mutual Mobile";
+				TargetAttributes = {
+					14E8A43C1A9BB91C00FDD039 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					14E8A4551A9BB91C00FDD039 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 14E8A43C1A9BB91C00FDD039;
+					};
+				};
+			};
+			buildConfigurationList = 14E8A4381A9BB91C00FDD039 /* Build configuration list for PBXProject "iOSBluetoothLighting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E8A4341A9BB91C00FDD039;
+			productRefGroup = 14E8A43E1A9BB91C00FDD039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E8A43C1A9BB91C00FDD039 /* iOSBluetoothLighting */,
+				14E8A4551A9BB91C00FDD039 /* iOSBluetoothLightingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E8A43B1A9BB91C00FDD039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8A44C1A9BB91C00FDD039 /* Main.storyboard in Resources */,
+				14E8A4511A9BB91C00FDD039 /* LaunchScreen.xib in Resources */,
+				14E8A44E1A9BB91C00FDD039 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8A4541A9BB91C00FDD039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82C34F8976A7EC6B4701E912 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CD0D1690A62F026F2575344 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSBluetoothLighting/Pods-iOSBluetoothLighting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E8A4391A9BB91C00FDD039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8A4681A9BBDAF00FDD039 /* BeanBrowserController.m in Sources */,
+				14E8A4461A9BB91C00FDD039 /* AppDelegate.m in Sources */,
+				14E8A4431A9BB91C00FDD039 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8A4521A9BB91C00FDD039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8A45D1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E8A4581A9BB91C00FDD039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E8A43C1A9BB91C00FDD039 /* iOSBluetoothLighting */;
+			targetProxy = 14E8A4571A9BB91C00FDD039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14E8A44A1A9BB91C00FDD039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E8A44B1A9BB91C00FDD039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14E8A44F1A9BB91C00FDD039 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E8A4501A9BB91C00FDD039 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E8A45E1A9BB91C00FDD039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14E8A45F1A9BB91C00FDD039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E8A4611A9BB91C00FDD039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF309DF41CEE970B643C928A /* Pods-iOSBluetoothLighting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSBluetoothLighting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14E8A4621A9BB91C00FDD039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC5E3D6CA92BC122B83A918 /* Pods-iOSBluetoothLighting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSBluetoothLighting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14E8A4641A9BB91C00FDD039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSBluetoothLightingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSBluetoothLighting.app/iOSBluetoothLighting";
+			};
+			name = Debug;
+		};
+		14E8A4651A9BB91C00FDD039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSBluetoothLightingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSBluetoothLighting.app/iOSBluetoothLighting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E8A4381A9BB91C00FDD039 /* Build configuration list for PBXProject "iOSBluetoothLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8A45E1A9BB91C00FDD039 /* Debug */,
+				14E8A45F1A9BB91C00FDD039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E8A4601A9BB91C00FDD039 /* Build configuration list for PBXNativeTarget "iOSBluetoothLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8A4611A9BB91C00FDD039 /* Debug */,
+				14E8A4621A9BB91C00FDD039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E8A4631A9BB91C00FDD039 /* Build configuration list for PBXNativeTarget "iOSBluetoothLightingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8A4641A9BB91C00FDD039 /* Debug */,
+				14E8A4651A9BB91C00FDD039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E8A4351A9BB91C00FDD039 /* Project object */;
+}
