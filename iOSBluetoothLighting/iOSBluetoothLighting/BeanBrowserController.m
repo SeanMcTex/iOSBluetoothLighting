@@ -7,11 +7,14 @@
 //
 
 #import "BeanBrowserController.h"
+#import "BeanViewController.h"
 #import <PTDBeanManager.h>
 
 @interface BeanBrowserController () <PTDBeanManagerDelegate>
 
 @property (nonatomic, strong) PTDBeanManager *beanManager;
+@property (strong) PTDBean *currentBean;
+
 @property (strong) NSMutableArray *beanArray;
 
 @end
@@ -21,17 +24,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.beanManager = [[PTDBeanManager alloc] initWithDelegate:self];
-    self.beanArray = [NSMutableArray array];
 }
 
 -(void)viewDidAppear:(BOOL)animated {
     // call will fail if we don't give Bluetooth a bit of time to spin up
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-
+        
         NSError *error;
+        if ( self.currentBean != nil ) {
+            [self.beanManager disconnectBean:self.currentBean error:nil];
+            self.currentBean = nil;
+        }
+        self.beanArray = [NSMutableArray array];
+        [self.tableView reloadData];
+
         [self.beanManager startScanningForBeans_error:&error];
         NSLog(@"Error: %@", error );
-
+        
     });
 }
 
@@ -40,6 +49,10 @@
 -(void)beanManager:(PTDBeanManager *)beanManager didDiscoverBean:(PTDBean *)bean error:(NSError *)error {
     [self.beanArray addObject:bean];
     [self.tableView reloadData];
+}
+
+-(void)beanManager:(PTDBeanManager *)beanManager didConnectBean:(PTDBean *)bean error:(NSError *)error {
+    [self performSegueWithIdentifier:@"showBeanSegue" sender:nil];
 }
 
 #pragma mark - Table view data source
@@ -61,20 +74,22 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    PTDBean *bean = [self.beanArray objectAtIndex:indexPath.row];
-    NSLog(@"Bean Selected: %@", bean);
-}
 
-
-/*
 #pragma mark - Navigation
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    PTDBean *bean = [self.beanArray objectAtIndex:indexPath.row];
+    [self.beanManager connectToBean:bean error:nil];
+    NSLog(@"Connecting to bean: %@", bean.name);
+}
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+    PTDBean *bean = [self.beanArray objectAtIndex:self.tableView.indexPathForSelectedRow.row];
+    BeanViewController *beanViewController = [segue destinationViewController];
+    beanViewController.bean = bean;
 }
-*/
+
 
 @end

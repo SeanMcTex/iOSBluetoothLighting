@@ -14,6 +14,7 @@
 		14E8A4511A9BB91C00FDD039 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E8A44F1A9BB91C00FDD039 /* LaunchScreen.xib */; };
 		14E8A45D1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A45C1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m */; };
 		14E8A4681A9BBDAF00FDD039 /* BeanBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A4671A9BBDAF00FDD039 /* BeanBrowserController.m */; };
+		14E8A46B1A9D09FA00FDD039 /* BeanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8A46A1A9D09FA00FDD039 /* BeanViewController.m */; };
 		CF9F833220FE3CB829C20D4B /* libPods-iOSBluetoothLighting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF816FC86F3FD7F07495BD2 /* libPods-iOSBluetoothLighting.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		14E8A45C1A9BB91C00FDD039 /* iOSBluetoothLightingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSBluetoothLightingTests.m; sourceTree = "<group>"; };
 		14E8A4661A9BBDAF00FDD039 /* BeanBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanBrowserController.h; sourceTree = "<group>"; };
 		14E8A4671A9BBDAF00FDD039 /* BeanBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanBrowserController.m; sourceTree = "<group>"; };
+		14E8A4691A9D09FA00FDD039 /* BeanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanViewController.h; sourceTree = "<group>"; };
+		14E8A46A1A9D09FA00FDD039 /* BeanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanViewController.m; sourceTree = "<group>"; };
 		4FF816FC86F3FD7F07495BD2 /* libPods-iOSBluetoothLighting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSBluetoothLighting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF309DF41CEE970B643C928A /* Pods-iOSBluetoothLighting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBluetoothLighting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBluetoothLighting/Pods-iOSBluetoothLighting.debug.xcconfig"; sourceTree = "<group>"; };
 		FBC5E3D6CA92BC122B83A918 /* Pods-iOSBluetoothLighting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBluetoothLighting.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBluetoothLighting/Pods-iOSBluetoothLighting.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				14E8A4401A9BB91C00FDD039 /* Supporting Files */,
 				14E8A4661A9BBDAF00FDD039 /* BeanBrowserController.h */,
 				14E8A4671A9BBDAF00FDD039 /* BeanBrowserController.m */,
+				14E8A4691A9D09FA00FDD039 /* BeanViewController.h */,
+				14E8A46A1A9D09FA00FDD039 /* BeanViewController.m */,
 			);
 			path = iOSBluetoothLighting;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E8A46B1A9D09FA00FDD039 /* BeanViewController.m in Sources */,
 				14E8A4681A9BBDAF00FDD039 /* BeanBrowserController.m in Sources */,
 				14E8A4461A9BB91C00FDD039 /* AppDelegate.m in Sources */,
 				14E8A4431A9BB91C00FDD039 /* main.m in Sources */,
