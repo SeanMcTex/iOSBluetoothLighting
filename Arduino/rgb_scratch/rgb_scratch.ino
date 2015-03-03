@@ -30,9 +30,9 @@ void loop()
 	  bool b = thisScratch.data[3];
 	  
 	  if ( isOn ) {
-	      Bean.setLed(r,g,b);
-	      Bean.sleep(1000);
-	      Bean.setLed(0,0,0);	  	
+	      Bean.setLed( r, g, b );
+	  } else {
+	      Bean.setLed( 0, 0, 0 );
 	  }
 	
   }
