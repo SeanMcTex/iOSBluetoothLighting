@@ -13,6 +13,8 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (weak, nonatomic) IBOutlet UILabel *activityLabel;
 
+@property (strong) UIColor *color;
+
 @end
 
 @implementation BeanViewController
@@ -23,6 +25,8 @@
     NSString *activityString = [NSString stringWithFormat:@"Connected to: %@", self.bean.name];
     self.activityLabel.text = activityString;
     [self.activityIndicator startAnimating];
+    
+    self.color = [UIColor blueColor];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,7 +36,24 @@
 
 - (IBAction)didTapSwitch:(UISwitch*)sender {
     BOOL switchValue = sender.on;
-    NSData *payload = [NSData dataWithBytes:&switchValue length:sizeof(BOOL)];
+    
+    CGFloat red;
+    CGFloat green;
+    CGFloat blue;
+    CGFloat alpha;
+    [self.color getRed:&red green:&green blue:&blue alpha:&alpha];
+    
+    Byte redByte = floor( red * 255 );
+    Byte greenByte = floor( green * 255 );
+    Byte blueByte = floor( blue * 255 );
+    
+    Byte dataArray[4];
+    dataArray[0] = switchValue;
+    dataArray[1] = redByte;
+    dataArray[2] = greenByte;
+    dataArray[3] = blueByte;
+    
+    NSData *payload = [NSData dataWithBytes:dataArray length:sizeof(dataArray)];
     [self.bean setScratchBank:1 data:payload];
 }
 
