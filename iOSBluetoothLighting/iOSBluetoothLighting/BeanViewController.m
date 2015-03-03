@@ -35,8 +35,18 @@
 }
 
 - (IBAction)didTapSwitch:(UISwitch*)sender {
-    BOOL switchValue = sender.on;
-    
+    self.isLightOn = sender.on;
+    [self sendUpdateToBean];
+}
+
+- (IBAction)didChangeColor:(HRColorMapView *)sender {
+    self.color = sender.color;
+    [self sendUpdateToBean];
+}
+
+#pragma mark - Communication
+
+- (void)sendUpdateToBean {
     CGFloat red;
     CGFloat green;
     CGFloat blue;
@@ -57,14 +67,5 @@
     [self.bean setScratchBank:1 data:payload];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
