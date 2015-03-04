@@ -21,13 +21,14 @@ void setup()
 // the loop routine runs over and over again forever:
 void loop() 
 {
-  ScratchData thisScratch = Bean.readScratchData(1);
+  ScratchData thisScratch = 
+   Bean.readScratchData(1);
   
   if ( thisScratch.length >= 4 ) {
 	  bool isOn = thisScratch.data[0];
-	  bool r = thisScratch.data[1];
-	  bool g = thisScratch.data[2];
-	  bool b = thisScratch.data[3];
+	  int r = thisScratch.data[1];
+	  int g = thisScratch.data[2];
+	  int b = thisScratch.data[3];
 	  
 	  if ( isOn ) {
 	      Bean.setLed( r, g, b );
