@@ -34,11 +34,11 @@ With all that in mind, here's what our final wiring diagram ends up looking like
 
 The Bean's software supports communicating over Bluetooth two different ways: using a virtual wireless serial port (already familiar to anyone who has done much Arduino work), and through five "Scratch" Bluetooth Low Energy characteristics. Each of these is a 20 byte section of memory, the values of which can be set and read through standard Bluetooth LE protocols.
 
-![Scratch Characteristics 1 through 5](DocsGraphics/Scratch1-5.svg)
+![Scratch Characteristics 1 through 5](https://rawgit.com/SeanMcTex/iOSBluetoothLighting/master/DocsGraphics/Scratch1-5.svg)
 
 For our project, we'll need to communicate four bytes of information: the on/off status for the light strip, and a byte each for red, green and blue color values. Since the payload is small and predictably structured, we'll use the first four bytes of one of the scratch characteristics to store the data:
 
-![Sending Data to the Lightblue Bean](DocsGraphics/Scratch1.svg)
+![Sending Data to the Lightblue Bean](https://rawgit.com/SeanMcTex/iOSBluetoothLighting/master/DocsGraphics/Scratch1.svg)
 
 Once we've determined how we're going to be receiving the data on the Bean, the main loop becomes straightforward:
 
