@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="460" height="45" viewBox="0, 0, 460, 45">
+  <g id="Layer_1">
+    <text transform="matrix(1, 0, 0, 1, 37.224, 21)">
+      <tspan x="-25.069" y="3.5" font-family="Helvetica-Light" font-size="11" fill="#000000">Scratch 1:</tspan>
+    </text>
+    <path d="M71.5,12.5 L89.5,12.5 L89.5,30.5 L71.5,30.5 L71.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <g>
+      <path d="M80.5,27.5 C77.186,27.5 74.5,24.814 74.5,21.5 C74.5,18.186 77.186,15.5 80.5,15.5 C83.814,15.5 86.5,18.186 86.5,21.5 C86.5,24.814 83.814,27.5 80.5,27.5 z" fill="#000000"/>
+      <path d="M80.5,27.5 C77.186,27.5 74.5,24.814 74.5,21.5 C74.5,18.186 77.186,15.5 80.5,15.5 C83.814,15.5 86.5,18.186 86.5,21.5 C86.5,24.814 83.814,27.5 80.5,27.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M89.5,12.5 L107.5,12.5 L107.5,30.5 L89.5,30.5 L89.5,12.5 z" fill="#FF0000"/>
+      <path d="M89.5,12.5 L107.5,12.5 L107.5,30.5 L89.5,30.5 L89.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M107.5,12.5 L125.5,12.5 L125.5,30.5 L107.5,30.5 L107.5,12.5 z" fill="#00FF00"/>
+      <path d="M107.5,12.5 L125.5,12.5 L125.5,30.5 L107.5,30.5 L107.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M125.5,12.5 L143.5,12.5 L143.5,30.5 L125.5,30.5 L125.5,12.5 z" fill="#0000FF"/>
+      <path d="M125.5,12.5 L143.5,12.5 L143.5,30.5 L125.5,30.5 L125.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <path d="M143.5,12.5 L161.5,12.5 L161.5,30.5 L143.5,30.5 L143.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M161.5,12.5 L179.5,12.5 L179.5,30.5 L161.5,30.5 L161.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M179.5,12.5 L197.5,12.5 L197.5,30.5 L179.5,30.5 L179.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M197.5,12.5 L215.5,12.5 L215.5,30.5 L197.5,30.5 L197.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M215.5,12.5 L233.5,12.5 L233.5,30.5 L215.5,30.5 L215.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M233.5,12.5 L251.5,12.5 L251.5,30.5 L233.5,30.5 L233.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M251.5,12.5 L269.5,12.5 L269.5,30.5 L251.5,30.5 L251.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M269.5,12.5 L287.5,12.5 L287.5,30.5 L269.5,30.5 L269.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M287.5,12.5 L305.5,12.5 L305.5,30.5 L287.5,30.5 L287.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M305.5,12.5 L323.5,12.5 L323.5,30.5 L305.5,30.5 L305.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M323.5,12.5 L341.5,12.5 L341.5,30.5 L323.5,30.5 L323.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M341.5,12.5 L359.5,12.5 L359.5,30.5 L341.5,30.5 L341.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M359.5,12.5 L377.5,12.5 L377.5,30.5 L359.5,30.5 L359.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M377.5,12.5 L395.5,12.5 L395.5,30.5 L377.5,30.5 L377.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M395.5,12.5 L413.5,12.5 L413.5,30.5 L395.5,30.5 L395.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M413.5,12.5 L431.5,12.5 L431.5,30.5 L413.5,30.5 L413.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M431.5,12.5 L449.5,12.5 L449.5,30.5 L431.5,30.5 L431.5,12.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+  </g>
+</svg>

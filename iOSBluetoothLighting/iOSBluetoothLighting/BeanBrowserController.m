@@ -37,9 +37,11 @@
         }
         self.beanArray = [NSMutableArray array];
         [self.tableView reloadData];
-
+        
         [self.beanManager startScanningForBeans_error:&error];
-        NSLog(@"Error: %@", error );
+        if ( error != nil ) {
+            NSLog(@"Error scanning for beans: %@", error );
+        }
         
     });
 }
