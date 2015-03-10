@@ -6,7 +6,7 @@
 /*
   rgb_scratch
  
- Checks scratch bank 1. Blinks LED the color of the value passed in.
+ Checks scratch bank 1. Sets an array of NeoPixels to match the color sent to that bank.
  Byte 0: on/off
  Byte 1: Red
  Byte 2: Green
@@ -23,7 +23,6 @@ void setup()
 {
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
-
 }
 
 void updateLight( bool isOn, int r, int g, int b ) {
@@ -37,39 +36,35 @@ void updateLight( bool isOn, int r, int g, int b ) {
 }
 
 // Fill the dots one after the other with a color
-void colorWipe(uint32_t c, uint8_t wait) {
-  for(uint16_t i=0; i<strip.numPixels(); i++) {
-      strip.setPixelColor(i, c);
-      strip.show();
-      delay(wait);
+void colorWipe( uint32_t c, uint8_t wait ) {
+  for( uint16_t i=0; i<strip.numPixels(); i++ ) {
+    strip.setPixelColor( i, c );
+    strip.show();
+    delay( wait );
   }
 }
 
 bool compareScratch( ScratchData * scratch1, ScratchData * scratch2 )
 {
   bool matched = true;
-  
-  if ( scratch1->length != scratch2->length )
-  {
+
+  if ( scratch1->length != scratch2->length ) {
     matched = false;
   }
-  else
-  {
+  else {
     int length = min( scratch1->length, scratch2->length );
     int i = 0;
-    
-    while ( i < length )
-    {
-      if ( scratch1->data[i] != scratch2->data[i] )
-      {
+
+    while ( i < length ) {
+      if ( scratch1->data[i] != scratch2->data[i] ) {
         matched = false;
         i = length;
       }
       i++;
     }
   }
-  
-    return matched;
+
+  return matched;
 }
 
 // the loop routine runs over and over again forever:
@@ -90,7 +85,7 @@ void loop()
     lastScratch = thisScratch;
   }
 
-  Bean.sleep(1000);
 }  
+
 
 
