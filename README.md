@@ -22,11 +22,11 @@ In addition, since we'll be making an iOS app to control the project, we'll need
 
 We don't want to have to be replacing batteries all the time, so an external power supply seems the way to go. There's one potentially tricky problem here: the NeoPixel strip expects 5v, and the Bean runs at 3.3v. Fortunately, per ["Powering the NeoPixel"](https://learn.adafruit.com/adafruit-neopixel-uberguide/power), "Lower voltages are always acceptable, with the caveat that the LEDs will be slightly dimmer." Dimmer is OK; having our project catch fire and burn the apartment to the ground (which would probably ensure I wouldn't get my damage deposit back) is not. Thus, we'll use a 3v external supply.
 
-We'll also put a few other safety measures in place: In order to prevent power surges when the power supply is connected up, we'll bridge the pins from the power supply with a capacitor. The NeoPixel folk also recommend including a resistor between the control board and the strip's data pin, so we'll do that as well.
+We'll also put another safety measure in place: a 1000Ω resistor between the control board and the strip's data pin. (The NeoPixel folks [recommend 300-500Ω]( https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices), but I didn't have one in that range, and the higher resistance does no harm.)
 
 With all that in mind, here's what our final wiring diagram ends up looking like:
 
-
+![Wiring Diagram](https://rawgit.com/SeanMcTex/iOSBluetoothLighting/master/DocsGraphics/circuit.svg)
 
 ## Step 2: The Arduino Software
 
@@ -53,7 +53,7 @@ Once we've determined how we're going to be receiving the data on the Bean, the 
 	    int g = thisScratch.data[2];
 	    int b = thisScratch.data[3];
 
-	    updateLight( isOn, r, g, b ); // we will write this later
+	    updateLight( isOn, r, g, b ); // more on this in a minute
 
 	  }
 
@@ -62,6 +62,26 @@ Once we've determined how we're going to be receiving the data on the Bean, the 
 
 In the first line, we use the Bean library to read the data from the frist Scratch area. After verifying the we have enough data to break apart, we extract the values for whether the light should be on and each of the color channels and then pass them off to a yet-to-be-written routine for updating our lights. Finally, we use the Bean library's sleep command to put the controller to sleep for one second. (The Bean library's [sleep command](https://punchthrough.com/bean/the-arduino-reference/sleep/) puts the microcontroller into "deep sleep" mode, and is more power-efficient than the standard one.)
 
+	void updateLight( bool isOn, int r, int g, int b ) {
+	  uint32_t c = strip.Color( r, g, b );
+	  if ( isOn ) {
+	    colorWipe( c, 50 );
+	  } 
+	  else {
+	    colorWipe( strip.Color( 0, 0, 0 ), 50 );
+	  }
+	}
+
+	// Fill the dots one after the other with a color
+	void colorWipe(uint32_t c, uint8_t wait) {
+	  for( uint16_t i=0; i<strip.numPixels(); i++ ) {
+	    strip.setPixelColor( i, c );
+	    strip.show();
+	    delay( wait );
+	  }
+	}
+
+In our next section of code, we have an updateLight method that either sets all the lights on the NeoPixel strip to the specified color or turns them all off. In order to have the lights appear sequentially, rather than all at once, we borrow the colorWipe method from some of the sample code that is provided with the NeoPixels. (This is, of course, just for a bit of sci-fi flair -- we could easily have them all come on at once.)
 
 ## Step 3: The iOS Software
 
