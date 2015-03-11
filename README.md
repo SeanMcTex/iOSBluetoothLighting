@@ -85,11 +85,13 @@ In our next section of code, we have an updateLight method that either sets all 
 
 ## Step 3: The iOS Software
 
-Since we're a mobile shop, it would seem silly not to write our own custom software to control the project. The only UI we'll need for this is a way to select a Bean, an on/off switch, and a way to specify the color:
+Since we're a mobile shop, it would be silly not to write our own custom software to control the project. The only UI we'll need for this is a way to select a Bean, an on/off switch, and a way to specify the color:
 
 ![Bean Picker](DocsGraphics/picker.png)![Light Controls](DocsGraphics/light-controls.png)
 
 We'll also include the LightBlue Bean's [iOS/OS X SDK](https://github.com/PunchThrough/Bean-iOS-OSX-SDK), which makes working with the Bean a little easier. Since we are using Bluetooth characteristics to send our data, we could also simply use CoreBluetooth, though including the SDK gives us the flexibility to also take advantage of the Bean's serial connection in the future if we want to.
+
+### The Browser Screen
 
 When the browser for available Beans appears, we use the Bean library to scan for available devices:
 
@@ -141,7 +143,24 @@ And when the connection is made, we finally initiate the segue to show the contr
 	    [self performSegueWithIdentifier:@"showBeanSegue" sender:nil];
 	}
 
-Most of the control panel code just deals with UI. The interesting methods allow us to send an update, with a little bit of data massaging, to the Bean.
+	- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+	    PTDBean *bean = [self.beanArray objectAtIndex:self.tableView.indexPathForSelectedRow.row];
+	    BeanViewController *beanViewController = [segue destinationViewController];
+	    beanViewController.bean = bean;
+	}
+
+### The Control Screen
+
+Most of the control panel code just deals with UI. The interesting methods allow us to send an update, with a little bit of data massaging, to the Bean. (ColorSwatchView is simply a UIView. We use the background color to store and display the current color selected.)
+
+
+	- (IBAction)didTapSwitch:(UISwitch*)sender {
+	    [self sendUpdateToBean];
+	}
+
+	- (IBAction)sliderDragCompleted:(UISlider *)sender {
+	    [self sendUpdateToBean];
+	}
 
 	- (void)sendUpdateToBean {
 	    CGFloat red;
@@ -198,6 +217,8 @@ We also read the data from the bean when we display the screen to set the status
 	    self.blueSlider.value = blue;
 	}
 
+With all this code in place, we can finally send updates to our completed light system!
 
 ## Step 4: Profit?
 
+This may not be a practical lighting system for everyone, but for folks with an inclination toward tinkering, it opens up lots of interesting possibilities for customization and improvement. It would be easy to add a variety of animation effects when changing the light's color. One could monitor the Bean's accelerometers so that you can turn the light on and off by thumping the shelf it's mounted under with your fist (I call this ["Fonzie mode"](http://www.dailymotion.com/video/xu7jyb_1st-time-we-see-fonz-hit-the-jukebox-and-stop-and-start-it-upon-command_shortfilms)). The lighting could be automatically adjusted to be more blue in the morning to help you wake up, and more red in the evening so as not to interfere with your sleep, a la [Flux](https://justgetflux.com). And of course one could tie it into various web services to provide quick information on weather, the stock market, etc.
