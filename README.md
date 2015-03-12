@@ -2,21 +2,21 @@
 
 I recently moved into a new apartment. It's a great place, except for one glaring omission: the built-in desk area has terrible light. I looked online a bit, and discovered that there are excellent LED strip lights that would fit under an overhanging shelf and illuminate the desk beatifully. 
 
-But I am an Engineer! And Engineers love to build stuff! I decided the preferable course would be to create my own lighting system. With LEDs that can display custom colors. And make it controlled by iOS. 
+But I am an Engineer, and Engineers love to build stuff, even when it's not an especially good idea! I decided the preferable course would be to create my own lighting system. With LEDs that can display custom colors. And make it controlled by iOS. 
 
-More expensive, harder to build, and probably won't work as well? NOW WE'RE TALKING!
+More expensive, harder to build, and probably won't work as well as a commercial solution? NOW WE'RE TALKING!
 
-Because I've done most of my hobby electronics work on the [Arduino](http://arduino.cc), I decided to use one of those as the controller for the project. I'd recently learned about the [LightBlue Bean](https://punchthrough.com/bean/), a super-cool Arduino controller that adds Bluetooth 4.0 to the standard Arduino formula. The Bluetooth support would allow it to easily talk with an iOS or Android phone. (Android support is left as an exercise to the reader, because I don't know how to do it.) The [NeoPixel](http://www.adafruit.com/category/168) LEDs work well, and since you can wire a ton of them in serial, keep the wiring hassle to a minimum. And since the LEDs won't run long on battery power, a 3v power supply:
+Because I've done most of my hobby electronics work on the [Arduino](http://arduino.cc), I decided to use one of those as the controller for the project. I'd recently learned about the [LightBlue Bean](https://punchthrough.com/bean/), a super-cool Arduino controller that adds Bluetooth 4.0 to the standard Arduino formula. The Bluetooth support would allow it to easily talk with an iOS or Android phone. (Android support is left as an exercise to the reader, because I don't know how to do it.) The [NeoPixel](http://www.adafruit.com/category/168) LEDs work well, and since you can wire a ton of them in serial, keep the wiring hassle to a minimum. Because the LEDs won't run long on battery power, a 3v power supply is also needed.
 
 Thus, our parts list:
 
 - [Adafruit NeoPixel Digital RGB LED Strip - White 30 LED - 1m](http://www.adafruit.com/products/1376)
 - [LightBlue Bean](https://punchthrough.com/bean/)
 - 3v Power Supply
-- Pushbutton Switch
-- Wires and solder and all that stuff
+- a 300-1000Ω resistor
+- Wires, solder and all that stuff
 
-In addition, since we'll be making an iOS app to control the project, we'll need Xcode and an iPhone. (The simulator won't be much use, since we'll need the Bluetooth support.)
+In addition, since we'll be making an iOS app to control the project, we'll need Xcode and an iPhone. And since we'll be programming the Bean, we'll also need the Arduino IDE and LightBlue's Bean Loader software.
 
 ## Step 1: Wire Up the Parts
 
@@ -24,13 +24,13 @@ We don't want to have to be replacing batteries all the time, so an external pow
 
 We'll also put another safety measure in place: a 1000Ω resistor between the control board and the strip's data pin. (The NeoPixel folks [recommend 300-500Ω]( https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices), but I didn't have one in that range, and the higher resistance does no harm.)
 
-With all that in mind, here's what our final wiring diagram ends up looking like:
+With all that in mind, here's what our final wiring diagram ends up looking like (note -- Safari doesn't render this SVG well. If you can't see the Bean in the diagram, click on it to display it by itself, which appears to fix the rendering problem):
 
 ![Wiring Diagram](https://rawgit.com/SeanMcTex/iOSBluetoothLighting/master/DocsGraphics/circuit.svg)
 
 ## Step 2: The Arduino Software
 
-(Note: you can download the completed software for this project [from GitHub](https://github.com/SeanMcTex/iOSBluetoothLighting).)
+(Note: you can download the completed software for this project [from GitHub](https://github.com/SeanMcTex/iOSBluetoothLighting).) In order to build the code, you'll need both the [LightBlue extensions to the IDE](https://punchthrough.com/bean/getting-started-osx/) to support the bean and the [NeoPixel Library](https://github.com/adafruit/Adafruit_NeoPixel) to allow the bean to talk to the LED strip.
 
 The Bean's software supports communicating over Bluetooth two different ways: using a virtual wireless serial port (already familiar to anyone who has done much Arduino work), and through five "Scratch" Bluetooth Low Energy characteristics. Each of these is a 20 byte section of memory, the values of which can be set and read through standard Bluetooth LE protocols.
 
@@ -85,11 +85,11 @@ In our next section of code, we have an updateLight method that either sets all 
 
 ## Step 3: The iOS Software
 
-Since we're a mobile shop, it would be silly not to write our own custom software to control the project. The only UI we'll need for this is a way to select a Bean, an on/off switch, and a way to specify the color:
+Since we're going for maximum engineering nerdiness, it would be silly not to write our own custom software to control the project. The only UI we'll need for this is a way to select a Bean, an on/off switch, and a way to specify the color:
 
 ![Bean Picker](DocsGraphics/picker.png)![Light Controls](DocsGraphics/light-controls.png)
 
-We'll also include the LightBlue Bean's [iOS/OS X SDK](https://github.com/PunchThrough/Bean-iOS-OSX-SDK), which makes working with the Bean a little easier. Since we are using Bluetooth characteristics to send our data, we could also simply use CoreBluetooth, though including the SDK gives us the flexibility to also take advantage of the Bean's serial connection in the future if we want to.
+We'll also include the LightBlue Bean's [iOS/OS X SDK](https://github.com/PunchThrough/Bean-iOS-OSX-SDK), which makes working with the Bean a little easier. Since we are using Bluetooth characteristics to send our data, we could also simply use CoreBluetooth. Including the SDK, however, gives us the flexibility to also take advantage of the Bean's serial connection in the future if we want to.
 
 ### The Browser Screen
 
@@ -124,10 +124,10 @@ Note one potential pitfall: when we create a *PTDBeanManager*, we have to give i
 
 When the Bean manager calls our delegate method to indicate that it found a Bean, we simply add it to our array and update the table to reflect the new device:
 
--(void)beanManager:(PTDBeanManager *)beanManager didDiscoverBean:(PTDBean *)bean error:(NSError *)error {
-    [self.beanArray addObject:bean];
-    [self.tableView reloadData];
-}
+	-(void)beanManager:(PTDBeanManager *)beanManager didDiscoverBean:(PTDBean *)bean error:(NSError *)error {
+	    [self.beanArray addObject:bean];
+	    [self.tableView reloadData];
+	}
 
 If the user taps a bean to select it, we then try to establish a connection:
 
@@ -221,4 +221,6 @@ With all this code in place, we can finally send updates to our completed light 
 
 ## Step 4: Profit?
 
-This may not be a practical lighting system for everyone, but for folks with an inclination toward tinkering, it opens up lots of interesting possibilities for customization and improvement. It would be easy to add a variety of animation effects when changing the light's color. One could monitor the Bean's accelerometers so that you can turn the light on and off by thumping the shelf it's mounted under with your fist (I call this ["Fonzie mode"](http://www.dailymotion.com/video/xu7jyb_1st-time-we-see-fonz-hit-the-jukebox-and-stop-and-start-it-upon-command_shortfilms)). The lighting could be automatically adjusted to be more blue in the morning to help you wake up, and more red in the evening so as not to interfere with your sleep, a la [Flux](https://justgetflux.com). And of course one could tie it into various web services to provide quick information on weather, the stock market, etc.
+This is almost certainly not a practical lighting system for everyone, but for folks with an inclination toward tinkering, it opens up lots of interesting possibilities for customization and improvement. It would be easy to add a variety of animation effects when changing the light's color. One could monitor the Bean's accelerometers so that you can turn the light on and off by thumping the shelf it's mounted under with your fist (I call this ["Fonzie mode"](http://www.dailymotion.com/video/xu7jyb_1st-time-we-see-fonz-hit-the-jukebox-and-stop-and-start-it-upon-command_shortfilms)). The lighting could be automatically adjusted to be more blue in the morning to help you wake up, and more red in the evening so as not to interfere with your sleep, a la [Flux](https://justgetflux.com). And of course one could tie it into various web services to provide quick information on weather, the stock market, etc.
+
+The project was great for learning better how to control hardware from iOS, and should be a fun build for anyone interested in that sort of integration. If you decide to give it a try, feel free to email me at <sean.mcmains@mutualmobile.com> if you bump into any issues, or if you have suggestions or code improvements. I'd be glad to hear from you!
