@@ -6,21 +6,21 @@ But I am an Engineer, and Engineers love to build stuff, even when it's not an e
 
 More expensive, harder to build, and probably won't work as well as a commercial solution? NOW WE'RE TALKING!
 
-Because I've done most of my hobby electronics work on the [Arduino](http://arduino.cc), I decided to use one of those as the controller for the project. I'd recently learned about the [LightBlue Bean](https://punchthrough.com/bean/), a super-cool Arduino controller that adds Bluetooth 4.0 to the standard Arduino formula. The Bluetooth support would allow it to easily talk with an iOS or Android phone. (Android support is left as an exercise to the reader, because I don't know how to do it.) The [NeoPixel](http://www.adafruit.com/category/168) LEDs work well, and since you can wire a ton of them in serial, keep the wiring hassle to a minimum. Because the LEDs won't run long on battery power, a 3v power supply is also needed.
+Because I've done most of my hobby electronics work on the [Arduino](http://arduino.cc), I decided to use one of those as the controller for the project. I'd recently learned about the [LightBlue Bean](https://punchthrough.com/bean/), a super-cool Arduino controller that adds Bluetooth 4.0 to the standard Arduino formula. The Bluetooth support would allow it to easily talk with an iOS or Android phone. (Android support is left as an exercise to the reader, because I don't know how to do it.) The [NeoPixel](http://www.adafruit.com/category/168) LEDs work well, and since you can wire a ton of them in serial, keep the wiring hassle to a minimum. Because the LEDs won't run long on battery power, a 3v power supply is also needed. ("3v" means "3 volts". Using too few volts to power something will result in it not working; too many will cause it to emit smoke and stop working forever. Matching the required voltage to the supplied voltage is therefore pretty important.)
 
-Thus, our parts list:
+Here's our parts list:
 
 - [Adafruit NeoPixel Digital RGB LED Strip - White 30 LED - 1m](http://www.adafruit.com/products/1376)
 - [LightBlue Bean](https://punchthrough.com/bean/)
 - 3v Power Supply
-- a 300-1000Ω resistor
-- Wires, solder and all that stuff
+- a 300-1000Ω resistor (Ω is the symbol for "ohms", a measure of electrical resistance.)
+- Wires, solder and all that workbench stuff
 
 In addition, since we'll be making an iOS app to control the project, we'll need Xcode and an iPhone. And since we'll be programming the Bean, we'll also need the Arduino IDE and LightBlue's Bean Loader software.
 
 ## Step 1: Wire Up the Parts
 
-We don't want to have to be replacing batteries all the time, so an external power supply seems the way to go. There's one potentially tricky problem here: the NeoPixel strip expects 5v, and the Bean runs at 3.3v. Fortunately, per ["Powering the NeoPixel"](https://learn.adafruit.com/adafruit-neopixel-uberguide/power), "Lower voltages are always acceptable, with the caveat that the LEDs will be slightly dimmer." Dimmer is OK; having our project catch fire and burn the apartment to the ground (which would probably ensure I wouldn't get my damage deposit back) is not. Thus, we'll use a 3v external supply.
+We don't want to have to be replacing batteries all the time, so an external power supply seems the way to go. There's one potentially tricky problem here: the NeoPixel strip runs at 5v, and the Bean runs at 3.3v. Fortunately, per ["Powering the NeoPixel"](https://learn.adafruit.com/adafruit-neopixel-uberguide/power), "Lower voltages are always acceptable, with the caveat that the LEDs will be slightly dimmer." Dimmer is OK; having our project catch fire and burn the apartment to the ground (which would probably ensure I wouldn't get my damage deposit back) is not. Thus, we'll use a 3v external supply.
 
 We'll also put another safety measure in place: a 1000Ω resistor between the control board and the strip's data pin. (The NeoPixel folks [recommend 300-500Ω]( https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices), but I didn't have one in that range, and the higher resistance does no harm.)
 
