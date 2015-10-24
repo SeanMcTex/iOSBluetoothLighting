@@ -1,2183 +1,652 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0002204B384A82844B84CC22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B16FABB352331634D4C69138</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0060F6299F5597555379F57C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PTDBeanRadioConfig.m</string>
-			<key>path</key>
-			<string>source/PTDBeanRadioConfig.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03855FCF9BACA489FD1FCD17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E5EB10E310495C978CE41F5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06A7C1C75A396C6FADCC5D82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CBPeripheral+isConnected_Universal.m</string>
-			<key>path</key>
-			<string>source/Categories/CBPeripheral+isConnected_Universal.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E2736A66B506ACD2D29A861</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PTDBEAN_Helper.h</string>
-			<key>path</key>
-			<string>source/Helper/PTDBEAN_Helper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0EF1221637B3B519356A50C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E3C640D9A7D5A72F71C593A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0FB32D7B5E43E74ECF2B558D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA5D7DA3D5F6216E6D9D9D55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1056DE0486EDC27991285CDA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9BFE24DFD16226F2AE5E2C4F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>110BD4C1E7FBC1A186146690</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1651198781FAA7150B896A63</string>
-				<string>DE673160CE1C91FF51F0B3C5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>11683B03CA4E7E51E66E6EE8</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F28E69B73353858BAEEDC7E9</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>364961A4DBBDEBF905B6399C</string>
-			<key>remoteInfo</key>
-			<string>Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK</string>
-		</dict>
-		<key>120F57FBC928458D55E89C7A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13BFC90E83734100D78CDD75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9F243E94140FB8F577A6CCF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14BC8343B57913D21EB43FA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>43622AFCA7B454B5EF6ADE43</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1512B0EEB1E94125D7EEC65F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D529551E95322B40F9A0CC45</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>161D2063848A08AFDF3FF454</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PTDBEAN_Helper.m</string>
-			<key>path</key>
-			<string>source/Helper/PTDBEAN_Helper.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1651198781FAA7150B896A63</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>165869F87B092DF5A7E22435</key>
-		<dict>
-			<key>fileRef</key>
-			<string>31F2D48F1C4E8E8DCD892553</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1867F2216A491B3EFB01643A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F2D61C996480569CC357E82F</string>
-				<string>5FD4C4E94066001399B4C46C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>19E99FAD89F9482FDA977886</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GattSerialProfile.h</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/GattSerialProfile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AC39B975444FCE57AF81D23</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F4A08D7C4123AA7D1621F96</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1CA80FC0583A98B4CDDA72F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GattSerialMessage.m</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattSerialMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2075363BE6E31AC1DCE9A256</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AppMessagingLayer.m</string>
-			<key>path</key>
-			<string>source/AppMessages/AppMessagingLayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>263F3DB622C455E6FD9A36F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BleProfile.m</string>
-			<key>path</key>
-			<string>source/Profiles/BleProfile.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27718D5B0066E42733A64158</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PTDBeanRadioConfig.h</string>
-			<key>path</key>
-			<string>source/Public/PTDBeanRadioConfig.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>285C1B6EC7255D1070C09079</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF5D23FFD64F56C99CA7BE7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A60CA2E7A355D8C28844458</key>
-		<dict>
-			<key>fileRef</key>
-			<string>83136A194F3937C55560B054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2AE252EC4FAB7EE8C13E5AA3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9CB0B62D626C0199334C0D4C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B13EBEC43B7076C239E7CB6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF79C425E5C31887A629D3A9</string>
-				<string>6CE65D47A17D1CB4A910D131</string>
-				<string>44A42F461A0F85BF16CA26AF</string>
-				<string>7C1DF881299E9DFF5AF1C64E</string>
-				<string>97DE27736D96100CC98E81C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D7DA78582C25318C51D254F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D0D435D1401C5E9F50B5E0F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2EE4ACAA60B09EB58BA22FAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GattCharacteristicHandler.h</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattCharacteristicHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F5800970752B70E09DDB832</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31F2D48F1C4E8E8DCD892553</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GattSerialMessage.h</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattSerialMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>35DD8FB010B530DFF61D88CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GattSerialMessageRxAssembler.m</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattSerialMessageRxAssembler.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>363BC6E20C6FCA70E3F196D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2075363BE6E31AC1DCE9A256</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>364961A4DBBDEBF905B6399C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1867F2216A491B3EFB01643A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E805AFF2F72CC5A87B66DB1D</string>
-				<string>F7C3A076DFD8EC5933C522CA</string>
-				<string>FEE97A6F3E959E9928E47EA7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK</string>
-			<key>productName</key>
-			<string>Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK</string>
-			<key>productReference</key>
-			<string>C47E8D2192C036D2E82FE353</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>3B64F3CFE2584DDFDC160151</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OadProfile.h</string>
-			<key>path</key>
-			<string>source/Profiles/OAD/OadProfile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4010AA52312AD875FBC95551</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0060F6299F5597555379F57C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>41F946DA8E7EC70ECFE4BEA9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79036FAC6036B1FFD23D87D6</string>
-				<string>4CA2DB2A22391B95CD675282</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43622AFCA7B454B5EF6ADE43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BEAN_Helper.h</string>
-			<key>path</key>
-			<string>source/Helper/BEAN_Helper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44A42F461A0F85BF16CA26AF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>78EF2358051705188C4F28B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4529E363D4BF0DB82E844543</key>
-		<dict>
-			<key>fileRef</key>
-			<string>65BFCEF718E5C5897F07880D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>457B44CB096C3DA324C77E38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE06547A2AC2C56D9065D6AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>469BFAF721BBB73545930CFA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5AAC098732D83419A237E5FE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>49583FE527CA8A72637C9587</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>49B61134F13B84904638D20D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B78A8514499948C97CD89A92</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4A16B53FB57672DB7F307CB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>4A8FCBB5E5C731636B3BC682</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ACDC83AFDB29E10CAC5A0AF8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA2DB2A22391B95CD675282</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>201411040000_BEAN_imgB.bin</string>
-			<key>path</key>
-			<string>firmware/201411040000_BEAN_imgB.bin</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D7ADF8C45EECDD3F43A1B67</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5406CB98362C398F47DBCAFE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>527BCE365A73E893696A13D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>55720E9D529BA4399A7B3A9B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>53E6478618419AD595D449E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PTDBean+Protected.h</string>
-			<key>path</key>
-			<string>source/PTDBean+Protected.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5406CB98362C398F47DBCAFE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AppMessagingLayer.h</string>
-			<key>path</key>
-			<string>source/AppMessages/AppMessagingLayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>55720E9D529BA4399A7B3A9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GattCharacteristicObserver.h</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattCharacteristicObserver.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>55A70405072A164EFF7E80C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F509B9C91D226AFD29E841A4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>55DB52F39B48EF1C2514F673</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2F51A1E867776A7B132D109</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5AAC098732D83419A237E5FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CBPeripheral+UniqueId.m</string>
-			<key>path</key>
-			<string>source/Categories/CBPeripheral+UniqueId.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B000419CFADB1BE98D85059</key>
-		<dict>
-			<key>fileRef</key>
-			<string>161D2063848A08AFDF3FF454</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5B0126633B9876CBAE83C88D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>263F3DB622C455E6FD9A36F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5BC9486159D2A2B20F6BEB87</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PTDBeanManager.m</string>
-			<key>path</key>
-			<string>source/PTDBeanManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C03010639C46F15C68A477C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19E99FAD89F9482FDA977886</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5D0D435D1401C5E9F50B5E0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DevInfoProfile.m</string>
-			<key>path</key>
-			<string>source/Profiles/Device Info/DevInfoProfile.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F25F6DAA10E8F17B95ACD7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSData+CRC.m</string>
-			<key>path</key>
-			<string>source/Categories/NSData+CRC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FD4C4E94066001399B4C46C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B46B5DD942BAE8FA1A69A6E9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK/Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>61174C45D3010AA91AC80F9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PTDBeanManager.h</string>
-			<key>path</key>
-			<string>source/Public/PTDBeanManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62BFF3066C322249C0FAF72B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61174C45D3010AA91AC80F9B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>63599DE3A6B5F66E6C4FB257</key>
-		<dict>
-			<key>fileRef</key>
-			<string>35DD8FB010B530DFF61D88CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>652E99AC911FC4096C8AAD68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>49583FE527CA8A72637C9587</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>65BFCEF718E5C5897F07880D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ProfileDelegate_Protocol.h</string>
-			<key>path</key>
-			<string>source/Profiles/ProfileDelegate_Protocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>672F603C672D17E3FE001C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E78071484BF4763F3A93BC91</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6859A7F386D7D3E3D406199C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A5B3DD784942C45491E9D7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>689C85A6707C16F20AA9536E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A16B53FB57672DB7F307CB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>68C39BB2E92F04E2C13E9B73</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF5A53995E90B8CDD9E515C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>69592875357D761F74A6658E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F25F6DAA10E8F17B95ACD7E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6A8A29BDB3860B7C81C1FEFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BEAN_Globals.h</string>
-			<key>path</key>
-			<string>source/BEAN_Globals.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CE65D47A17D1CB4A910D131</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>781F454C057B06D653195BFE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E0F821C583134013E02601C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GattPacket.h</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattPacket.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F4A08D7C4123AA7D1621F96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BatteryProfile.h</string>
-			<key>path</key>
-			<string>source/Profiles/Battery/BatteryProfile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>707E0A39A601513B08516A5E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9CF4737BC868C78096A100D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>72C434E55B4662E38C3C2EC3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GattTransport.h</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattTransport.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>743F55A0FE44B6CA800E31DF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>689C85A6707C16F20AA9536E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>748BDA72FFDF3BC7B13AA8ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A16B53FB57672DB7F307CB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>74D0DBDA8F3417CE57062EDA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06A7C1C75A396C6FADCC5D82</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>754DE4B393C0BAABB55CDE8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5BC9486159D2A2B20F6BEB87</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>78116A91EF62C2356AE06E13</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F5800970752B70E09DDB832</string>
-				<string>B46B5DD942BAE8FA1A69A6E9</string>
-				<string>49583FE527CA8A72637C9587</string>
-				<string>9728BFD89885ED3892175792</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>781F454C057B06D653195BFE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C1D7EBF210169DB3131AABA7</string>
-				<string>4A16B53FB57672DB7F307CB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78EF2358051705188C4F28B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF5A53995E90B8CDD9E515C8</string>
-				<string>B16FABB352331634D4C69138</string>
-				<string>5406CB98362C398F47DBCAFE</string>
-				<string>2075363BE6E31AC1DCE9A256</string>
-				<string>6A8A29BDB3860B7C81C1FEFA</string>
-				<string>43622AFCA7B454B5EF6ADE43</string>
-				<string>EF5D23FFD64F56C99CA7BE7B</string>
-				<string>6F4A08D7C4123AA7D1621F96</string>
-				<string>9CB0B62D626C0199334C0D4C</string>
-				<string>8A5B3DD784942C45491E9D7B</string>
-				<string>263F3DB622C455E6FD9A36F2</string>
-				<string>83136A194F3937C55560B054</string>
-				<string>5AAC098732D83419A237E5FE</string>
-				<string>D529551E95322B40F9A0CC45</string>
-				<string>06A7C1C75A396C6FADCC5D82</string>
-				<string>EA5D7DA3D5F6216E6D9D9D55</string>
-				<string>5D0D435D1401C5E9F50B5E0F</string>
-				<string>2EE4ACAA60B09EB58BA22FAE</string>
-				<string>55720E9D529BA4399A7B3A9B</string>
-				<string>6E0F821C583134013E02601C</string>
-				<string>ACDC83AFDB29E10CAC5A0AF8</string>
-				<string>31F2D48F1C4E8E8DCD892553</string>
-				<string>1CA80FC0583A98B4CDDA72F5</string>
-				<string>9CF4737BC868C78096A100D2</string>
-				<string>35DD8FB010B530DFF61D88CB</string>
-				<string>19E99FAD89F9482FDA977886</string>
-				<string>E9F243E94140FB8F577A6CCF</string>
-				<string>88912E7A77319B7F5E3D6CA3</string>
-				<string>F509B9C91D226AFD29E841A4</string>
-				<string>72C434E55B4662E38C3C2EC3</string>
-				<string>E5EB10E310495C978CE41F5F</string>
-				<string>A2F51A1E867776A7B132D109</string>
-				<string>5F25F6DAA10E8F17B95ACD7E</string>
-				<string>3B64F3CFE2584DDFDC160151</string>
-				<string>E6450883159C43193D333601</string>
-				<string>0E2736A66B506ACD2D29A861</string>
-				<string>161D2063848A08AFDF3FF454</string>
-				<string>B78A8514499948C97CD89A92</string>
-				<string>A700002A2DB73BC03D28165F</string>
-				<string>53E6478618419AD595D449E2</string>
-				<string>61174C45D3010AA91AC80F9B</string>
-				<string>5BC9486159D2A2B20F6BEB87</string>
-				<string>CE06547A2AC2C56D9065D6AB</string>
-				<string>27718D5B0066E42733A64158</string>
-				<string>0060F6299F5597555379F57C</string>
-				<string>E78071484BF4763F3A93BC91</string>
-				<string>9BFE24DFD16226F2AE5E2C4F</string>
-				<string>65BFCEF718E5C5897F07880D</string>
-				<string>FF10A1D2E7B5E15DDC839A74</string>
-				<string>E3C640D9A7D5A72F71C593A9</string>
-				<string>41F946DA8E7EC70ECFE4BEA9</string>
-				<string>78116A91EF62C2356AE06E13</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Bean-iOS-OSX-SDK</string>
-			<key>path</key>
-			<string>Bean-iOS-OSX-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79036FAC6036B1FFD23D87D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>201411040000_BEAN_imgA.bin</string>
-			<key>path</key>
-			<string>firmware/201411040000_BEAN_imgA.bin</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C1DF881299E9DFF5AF1C64E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96BF1322C449C6525BD714BB</string>
-				<string>C47E8D2192C036D2E82FE353</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80F08CA0EA5B58E4646E2F74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82A72C8F68164B636B705474</key>
-		<dict>
-			<key>fileRef</key>
-			<string>88912E7A77319B7F5E3D6CA3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>83136A194F3937C55560B054</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CBPeripheral+UniqueId.h</string>
-			<key>path</key>
-			<string>source/Categories/CBPeripheral+UniqueId.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88912E7A77319B7F5E3D6CA3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GattSerialTransport.h</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattSerialTransport.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A5B3DD784942C45491E9D7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BleProfile.h</string>
-			<key>path</key>
-			<string>source/Profiles/BleProfile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96BF1322C449C6525BD714BB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-iOSBluetoothLighting.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9728BFD89885ED3892175792</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97DE27736D96100CC98E81C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F11A81CA417B526E2C5C6510</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>980D331C62C70256C440E387</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53E6478618419AD595D449E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9954E7133D1C574CDEAF2111</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B64F3CFE2584DDFDC160151</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9BFE24DFD16226F2AE5E2C4F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PTDBleDevice.m</string>
-			<key>path</key>
-			<string>source/Profiles/PTDBleDevice.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CB0B62D626C0199334C0D4C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BatteryProfile.m</string>
-			<key>path</key>
-			<string>source/Profiles/Battery/BatteryProfile.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CF4737BC868C78096A100D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GattSerialMessageRxAssembler.h</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattSerialMessageRxAssembler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A105CD0F7887DC2DD185808E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1F00874CE9999C201894CEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2F51A1E867776A7B132D109</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSData+CRC.h</string>
-			<key>path</key>
-			<string>source/Categories/NSData+CRC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A388FBF17FCBA68E967B4850</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1CA80FC0583A98B4CDDA72F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A700002A2DB73BC03D28165F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PTDBean.m</string>
-			<key>path</key>
-			<string>source/PTDBean.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB03032DE66B4113A6A41298</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E6450883159C43193D333601</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ACDC83AFDB29E10CAC5A0AF8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GattPacket.m</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattPacket.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF79C425E5C31887A629D3A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>AFA9CC813D5334595EE802C7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2EE4ACAA60B09EB58BA22FAE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B16FABB352331634D4C69138</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AppMessages.h</string>
-			<key>path</key>
-			<string>App Message Definitions/AppMessages.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B46B5DD942BAE8FA1A69A6E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B78A8514499948C97CD89A92</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PTDBean.h</string>
-			<key>path</key>
-			<string>source/Public/PTDBean.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B844C718B011725742128E16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FF10A1D2E7B5E15DDC839A74</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B9FDAE9762E44C1B51CFE581</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A700002A2DB73BC03D28165F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF5A53995E90B8CDD9E515C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AppMessageTypes.h</string>
-			<key>path</key>
-			<string>App Message Definitions/AppMessageTypes.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1D7EBF210169DB3131AABA7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreBluetooth.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreBluetooth.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C47E8D2192C036D2E82FE353</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-iOSBluetoothLighting-Bean-iOS-OSX-SDK.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CCF0208FE82BB960EABBC891</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DF553516FB04B4B6F1475B9F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CD3901ABB9B456974C14BF5C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27718D5B0066E42733A64158</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CE06547A2AC2C56D9065D6AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PTDBeanManager+Protected.h</string>
-			<key>path</key>
-			<string>source/PTDBeanManager+Protected.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE5ABF1A34DECBD756C205A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E0F821C583134013E02601C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CF66A3D07CFDFF73181A7C6D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72C434E55B4662E38C3C2EC3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D238E59352973431835D30DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D529551E95322B40F9A0CC45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CBPeripheral+isConnected_Universal.h</string>
-			<key>path</key>
-			<string>source/Categories/CBPeripheral+isConnected_Universal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D7472479D687B81D4014FF79</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC51EB76A2B8D98426D4675A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C1D7EBF210169DB3131AABA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE673160CE1C91FF51F0B3C5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DE9C08A54D6C7D4CFA728940</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A1F00874CE9999C201894CEF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DED1785FC5D72BC9F039F731</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-iOSBluetoothLighting-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF553516FB04B4B6F1475B9F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DED1785FC5D72BC9F039F731</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DF6031FD460954D269CB9589</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>80F08CA0EA5B58E4646E2F74</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E0AB529302278D34F2F666CE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DF6031FD460954D269CB9589</string>
-				<string>DE9C08A54D6C7D4CFA728940</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E3AAE9B60323EB6863F36CA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E2736A66B506ACD2D29A861</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E3C640D9A7D5A72F71C593A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>oad.h</string>
-			<key>path</key>
-			<string>source/Profiles/OAD/oad.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5EB10E310495C978CE41F5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GattTransport.m</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattTransport.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6450883159C43193D333601</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>OadProfile.m</string>
-			<key>path</key>
-			<string>source/Profiles/OAD/OadProfile.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E78071484BF4763F3A93BC91</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PTDBleDevice.h</string>
-			<key>path</key>
-			<string>source/Public/PTDBleDevice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E805AFF2F72CC5A87B66DB1D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>363BC6E20C6FCA70E3F196D9</string>
-				<string>285C1B6EC7255D1070C09079</string>
-				<string>2AE252EC4FAB7EE8C13E5AA3</string>
-				<string>5B0126633B9876CBAE83C88D</string>
-				<string>469BFAF721BBB73545930CFA</string>
-				<string>74D0DBDA8F3417CE57062EDA</string>
-				<string>2D7DA78582C25318C51D254F</string>
-				<string>4A8FCBB5E5C731636B3BC682</string>
-				<string>A388FBF17FCBA68E967B4850</string>
-				<string>63599DE3A6B5F66E6C4FB257</string>
-				<string>13BFC90E83734100D78CDD75</string>
-				<string>55A70405072A164EFF7E80C2</string>
-				<string>03855FCF9BACA489FD1FCD17</string>
-				<string>69592875357D761F74A6658E</string>
-				<string>AB03032DE66B4113A6A41298</string>
-				<string>5B000419CFADB1BE98D85059</string>
-				<string>B9FDAE9762E44C1B51CFE581</string>
-				<string>754DE4B393C0BAABB55CDE8C</string>
-				<string>4010AA52312AD875FBC95551</string>
-				<string>1056DE0486EDC27991285CDA</string>
-				<string>652E99AC911FC4096C8AAD68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E9F243E94140FB8F577A6CCF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GattSerialProfile.m</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/GattSerialProfile.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA5D7DA3D5F6216E6D9D9D55</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DevInfoProfile.h</string>
-			<key>path</key>
-			<string>source/Profiles/Device Info/DevInfoProfile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D23FFD64F56C99CA7BE7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BEAN_Helper.m</string>
-			<key>path</key>
-			<string>source/Helper/BEAN_Helper.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F11A81CA417B526E2C5C6510</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D7472479D687B81D4014FF79</string>
-				<string>D238E59352973431835D30DA</string>
-				<string>DED1785FC5D72BC9F039F731</string>
-				<string>A105CD0F7887DC2DD185808E</string>
-				<string>120F57FBC928458D55E89C7A</string>
-				<string>80F08CA0EA5B58E4646E2F74</string>
-				<string>A1F00874CE9999C201894CEF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-iOSBluetoothLighting</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-iOSBluetoothLighting</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F28E69B73353858BAEEDC7E9</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>110BD4C1E7FBC1A186146690</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>2B13EBEC43B7076C239E7CB6</string>
-			<key>productRefGroup</key>
-			<string>7C1DF881299E9DFF5AF1C64E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>FD7FCE2C2F2C3939A2D3F75F</string>
-				<string>364961A4DBBDEBF905B6399C</string>
-			</array>
-		</dict>
-		<key>F2D61C996480569CC357E82F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B46B5DD942BAE8FA1A69A6E9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK/Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F509B9C91D226AFD29E841A4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GattSerialTransport.m</string>
-			<key>path</key>
-			<string>source/Profiles/Gatt Serial/Transport/GattSerialTransport.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7C3A076DFD8EC5933C522CA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DC51EB76A2B8D98426D4675A</string>
-				<string>748BDA72FFDF3BC7B13AA8ED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F8F447ACB5564CE853279060</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-iOSBluetoothLighting-Bean-iOS-OSX-SDK</string>
-			<key>target</key>
-			<string>364961A4DBBDEBF905B6399C</string>
-			<key>targetProxy</key>
-			<string>11683B03CA4E7E51E66E6EE8</string>
-		</dict>
-		<key>FC83B09D08332BDF5A7196FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6A8A29BDB3860B7C81C1FEFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD7FCE2C2F2C3939A2D3F75F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E0AB529302278D34F2F666CE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CCF0208FE82BB960EABBC891</string>
-				<string>743F55A0FE44B6CA800E31DF</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>F8F447ACB5564CE853279060</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-iOSBluetoothLighting</string>
-			<key>productName</key>
-			<string>Pods-iOSBluetoothLighting</string>
-			<key>productReference</key>
-			<string>96BF1322C449C6525BD714BB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>FEE97A6F3E959E9928E47EA7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>68C39BB2E92F04E2C13E9B73</string>
-				<string>0002204B384A82844B84CC22</string>
-				<string>4D7ADF8C45EECDD3F43A1B67</string>
-				<string>FC83B09D08332BDF5A7196FD</string>
-				<string>14BC8343B57913D21EB43FA6</string>
-				<string>1AC39B975444FCE57AF81D23</string>
-				<string>6859A7F386D7D3E3D406199C</string>
-				<string>2A60CA2E7A355D8C28844458</string>
-				<string>1512B0EEB1E94125D7EEC65F</string>
-				<string>0FB32D7B5E43E74ECF2B558D</string>
-				<string>AFA9CC813D5334595EE802C7</string>
-				<string>527BCE365A73E893696A13D1</string>
-				<string>CE5ABF1A34DECBD756C205A2</string>
-				<string>165869F87B092DF5A7E22435</string>
-				<string>707E0A39A601513B08516A5E</string>
-				<string>5C03010639C46F15C68A477C</string>
-				<string>82A72C8F68164B636B705474</string>
-				<string>CF66A3D07CFDFF73181A7C6D</string>
-				<string>55DB52F39B48EF1C2514F673</string>
-				<string>9954E7133D1C574CDEAF2111</string>
-				<string>E3AAE9B60323EB6863F36CA6</string>
-				<string>980D331C62C70256C440E387</string>
-				<string>49B61134F13B84904638D20D</string>
-				<string>457B44CB096C3DA324C77E38</string>
-				<string>62BFF3066C322249C0FAF72B</string>
-				<string>CD3901ABB9B456974C14BF5C</string>
-				<string>672F603C672D17E3FE001C5D</string>
-				<string>4529E363D4BF0DB82E844543</string>
-				<string>B844C718B011725742128E16</string>
-				<string>0EF1221637B3B519356A50C3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FF10A1D2E7B5E15DDC839A74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Profile_Protocol.h</string>
-			<key>path</key>
-			<string>source/Profiles/Profile_Protocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>F28E69B73353858BAEEDC7E9</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BB5FCA78EE107F6F107B4B9B6BF53C /* GattPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E470D0B1274BAB019611EA20E50786 /* GattPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC2E922E5023B4E2AF0707AFBFD7A4A /* Profile_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB714D4292AE026CD11D8F1D38E6684 /* Profile_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B58FAE3080C2CF627C467F4E2211B3B /* BEAN_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FD896371EF21403A5FDAA7B9DF69A3 /* BEAN_Helper.m */; };
+		0C264FF85393A76CE3D0536229943132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */; };
+		10E0D0792E83A8744027A7DE204E034A /* AppMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7C0932E916A324BC1DDEF6E8B2B37C /* AppMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1848413180139B41031745C53743096C /* PTDBleDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0AF2D2D2E129B41A190CDF0F88FA0 /* PTDBleDevice.m */; };
+		1FAB9D771331562B1A68EA1DC31C98AB /* PTDBeanRadioConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2D72F8123A230AA5A93430EC91FE1 /* PTDBeanRadioConfig.m */; };
+		28478B6ADD1CF39591651565F1AE8B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */; };
+		28F8E63DB732908315C4722847C192F1 /* DevInfoProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E946937D19D5949F2A1837588C3873 /* DevInfoProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F802357608CC420DDBD56FD7084FB0D /* PTDBean+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FF2A165006576F95CDD0CE26B49851 /* PTDBean+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FCA5C50464975D2E4426233F5BAB91C /* BleProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8101C7D8A9BBCD660A892C6FA34821 /* BleProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32816C1BF1B1EF77F3FB531B29D88BD8 /* GattPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16A26EAF007F1E363B17DE48BAF609 /* GattPacket.m */; };
+		32E8FD477440212600CBC4D0D30075E2 /* BleProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519271CDBCE3D79DDBEC89B56A78EE9 /* BleProfile.m */; };
+		33084F340F5429E9E89F53BD99F6A8EE /* GattCharacteristicObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = AA198F83FA41A7CA221396F9AFDAC9CE /* GattCharacteristicObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33D04B0D26008628C03D08D6837B99AD /* GattSerialTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A64C9B821AF932BF6A229DC90C5EFF5 /* GattSerialTransport.m */; };
+		34A099DF1E9849357BB8E859639B6677 /* PTDBeanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E123F58D0BB2289A4E5B5CEEC099786 /* PTDBeanManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3532E8755076C921177E6DF3CB589071 /* NSData+CRC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED2EDBFECFC21F7310594C37DEE8579 /* NSData+CRC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35BECFB567B4ADEBEDA5F3AA5EC3787A /* GattSerialTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1737032733219EBFC5D551581D81884F /* GattSerialTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42D8ED32592F144529D2EBBF388A0BC7 /* GattCharacteristicHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F676DD1769C37221F3997E4A43333E /* GattCharacteristicHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42FDC22237F0BA926F3C628DD4A5732A /* NSData+CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F25CA5985CC73F99549DB3E1E0E0C8 /* NSData+CRC.m */; };
+		453039E73CA52B69960FBC3C2FD2065F /* AppMessagingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 271943BAE7E7CB93289272D827ED39C7 /* AppMessagingLayer.m */; };
+		4A7742D648E62F0D5B3F026FD0ECF339 /* GattSerialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D5791DDFE2C1F2713BCC1C6CD6B245 /* GattSerialProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		515B27DCE750510ED61CB5B4482EBFED /* PTDBEAN_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CE8D43AE04E9060837828DE7F82C5C /* PTDBEAN_Helper.m */; };
+		5C18AE87C7A868B59A18A1791712A727 /* oad.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE5C3A2D44948798E9D4A8505A5110D /* oad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65760CB33732DF6463D4B35EDB562715 /* PTDBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 345B01703BA0DF89A81C661E0907D475 /* PTDBean.m */; };
+		6E1E0933A6F434416324F4ED04735819 /* GattSerialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A3AB60A53D23C0A87CDBC2265BE0CC /* GattSerialMessage.m */; };
+		72BFFEB70D56087689522066C8C75189 /* CBPeripheral+RSSI_Universal.m in Sources */ = {isa = PBXBuildFile; fileRef = 211755D4486495A4D907186CAD4565B8 /* CBPeripheral+RSSI_Universal.m */; };
+		7323580171460A07813C6B83651F014C /* OadProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FE2F1E50E96AA44DAF8EDB99CE6F87 /* OadProfile.m */; };
+		78BF1744CF62424641257F00E738B811 /* BEAN_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = B57FC4FF1D44D27E1753F7B6717C359B /* BEAN_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79EB8AE15784D5352D531F714C856193 /* PTDBeanRemoteFirmwareVersionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F03DA0907A26C8928DA7D0F0D7A0A73C /* PTDBeanRemoteFirmwareVersionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E2906D349077F04B4A2C7DCAA7874E3 /* GattSerialMessageRxAssembler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5EFB8B545F7A3C6D21CC87B03B3E1B /* GattSerialMessageRxAssembler.m */; };
+		90F66CF38D67CC44B79858F94EE50272 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */; };
+		9F3EF3400D3D8554D6F841C20C89AFB6 /* PTDBeanRemoteFirmwareVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB659DEC87D04BD75DC494DC623BCF /* PTDBeanRemoteFirmwareVersionManager.m */; };
+		A10BD32D577B9A053E2EA2124DE6CE4B /* PTDBeanRadioConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2148616BEB0B963CCCD8B856AC281E03 /* PTDBeanRadioConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A486C690FC4C20122F70CDA034A59F5E /* PTDBleDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 0050695B6B9B234DFE53FB81FAD84590 /* PTDBleDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89941B0E3C31D488D1B77A06B7C9AC3 /* OadProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFAF47A008E2C620D3733C4DAB1A633 /* OadProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0304F1649796D61B33D0B20F7764A22 /* CBPeripheral+RSSI_Universal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9E14E4EAA3A6E2DE36323A32738BC2 /* CBPeripheral+RSSI_Universal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B26AA866B3192F4EC4B8CEAADCC2B8AC /* PTDBEAN_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = D68A25E5513604605C163E86582A5167 /* PTDBEAN_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2AD0D48D11EBBC50BCDB490E43BD642 /* GattSerialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 41592CD210E23BA91229FE331300D966 /* GattSerialProfile.m */; };
+		B5BBB6CA0B3CB8339D672043F46952F9 /* CBPeripheral+UniqueId.h in Headers */ = {isa = PBXBuildFile; fileRef = A78AFE636ED15FA82BCEB27E0F41B24B /* CBPeripheral+UniqueId.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9EA718E9DCE5F14AA99FBFE24B51752 /* AppMessageTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5013DCE00C29B7040231C65EAB5632 /* AppMessageTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA428C6E4AB844F7757BD981868A27A7 /* Bean-iOS-OSX-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DB9CA4E01431311759D230BEAC109B /* Bean-iOS-OSX-SDK-dummy.m */; };
+		BE6E9805BFE6AE7CE89674441E3DD3BD /* PTDBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1EE2C58BE4F95140CC393C8172684C /* PTDBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9EE110C193D45D199E0EF7CEE83C29 /* ProfileDelegate_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F5ACA75C4DC48F204C96C643DCB49CBA /* ProfileDelegate_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0CBC58C5D86A84EF672B1AF9E47B47E /* GattSerialMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6377C4FFFCE8999278A34EB07D9734D8 /* GattSerialMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0F158E624E47A622B86AEB6E1B71FE /* GattTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 2673FDF91540A918A212B6334D3C59B4 /* GattTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA73C861598631D33A437189E190AE70 /* AppMessagingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1683D96328CF39E519C878C794EDAD12 /* AppMessagingLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9B5AD1E4194D8331D4CD8CF4FFD7E3 /* GattTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = E58726A40BE4E6E8EF9DBD88205348C2 /* GattTransport.m */; };
+		DB81F19D9F05C67A5D9A11B4220DF817 /* BatteryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7543CCF1ACF8CB48B46291C9498EB8B6 /* BatteryProfile.m */; };
+		DE12B27FB5CA7D1CFD0BDA18A51D9574 /* PTDBeanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F6717C821176F5C4E397DCAF805AE /* PTDBeanManager.m */; };
+		E2AF8BBC1416AF3AE21B70AEFA187437 /* DevInfoProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0294A1444F2CAF11AE9A7A0A825A2A64 /* DevInfoProfile.m */; };
+		E3EF0C09EAE6A12ED20DA8561A0C3B58 /* GattSerialMessageRxAssembler.h in Headers */ = {isa = PBXBuildFile; fileRef = 409C018247470277996DBBCC61574CC3 /* GattSerialMessageRxAssembler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1CA0C7B651B4A93B174634ABA0E2C4C /* CBPeripheral+UniqueId.m in Sources */ = {isa = PBXBuildFile; fileRef = 87131F4A9B52AB90F5E8AA1B9A2DC534 /* CBPeripheral+UniqueId.m */; };
+		F3B409CC5B4FD8370804FD7864B34C38 /* BEAN_Globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A264FFFF2FE91DFA18C43F00099AA5 /* BEAN_Globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F78D51930451A3E7CE03468B1FD1116E /* Pods-iOSBluetoothLighting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F40CC611D9C97B132924AE009A3B7 /* Pods-iOSBluetoothLighting-dummy.m */; };
+		FA61914F1F6934B9633E349BE8428B04 /* PTDBeanManager+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FA152DC75188F638648F51445E057F /* PTDBeanManager+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7CCD2345EA6014171816AA59C6DDFD /* BatteryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 398D107F7753E9752C98A48888F42C9F /* BatteryProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD0384D1E825D2B7D4E12966231F5C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6F2E1DC83107BCB789DBEDA297534B;
+			remoteInfo = "Bean-iOS-OSX-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0050695B6B9B234DFE53FB81FAD84590 /* PTDBleDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBleDevice.h; path = source/Public/PTDBleDevice.h; sourceTree = "<group>"; };
+		0294A1444F2CAF11AE9A7A0A825A2A64 /* DevInfoProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DevInfoProfile.m; path = "source/Profiles/Device Info/DevInfoProfile.m"; sourceTree = "<group>"; };
+		038E4DD60098B4BA42F3CFD4FC6A8643 /* Pods-iOSBluetoothLighting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSBluetoothLighting-acknowledgements.plist"; sourceTree = "<group>"; };
+		14FE2F1E50E96AA44DAF8EDB99CE6F87 /* OadProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OadProfile.m; path = source/Profiles/OAD/OadProfile.m; sourceTree = "<group>"; };
+		1683D96328CF39E519C878C794EDAD12 /* AppMessagingLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppMessagingLayer.h; path = source/AppMessages/AppMessagingLayer.h; sourceTree = "<group>"; };
+		1737032733219EBFC5D551581D81884F /* GattSerialTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialTransport.h; path = "source/Profiles/Gatt Serial/Transport/GattSerialTransport.h"; sourceTree = "<group>"; };
+		177EF2D7971975308D243F932E7D7582 /* Pods-iOSBluetoothLighting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSBluetoothLighting-resources.sh"; sourceTree = "<group>"; };
+		211755D4486495A4D907186CAD4565B8 /* CBPeripheral+RSSI_Universal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+RSSI_Universal.m"; path = "source/Categories/CBPeripheral+RSSI_Universal.m"; sourceTree = "<group>"; };
+		2148616BEB0B963CCCD8B856AC281E03 /* PTDBeanRadioConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBeanRadioConfig.h; path = source/Public/PTDBeanRadioConfig.h; sourceTree = "<group>"; };
+		2673FDF91540A918A212B6334D3C59B4 /* GattTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattTransport.h; path = "source/Profiles/Gatt Serial/Transport/GattTransport.h"; sourceTree = "<group>"; };
+		271943BAE7E7CB93289272D827ED39C7 /* AppMessagingLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppMessagingLayer.m; path = source/AppMessages/AppMessagingLayer.m; sourceTree = "<group>"; };
+		27F676DD1769C37221F3997E4A43333E /* GattCharacteristicHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattCharacteristicHandler.h; path = "source/Profiles/Gatt Serial/Transport/GattCharacteristicHandler.h"; sourceTree = "<group>"; };
+		2BB714D4292AE026CD11D8F1D38E6684 /* Profile_Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Profile_Protocol.h; path = source/Profiles/Profile_Protocol.h; sourceTree = "<group>"; };
+		2C9F6717C821176F5C4E397DCAF805AE /* PTDBeanManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBeanManager.m; path = source/PTDBeanManager.m; sourceTree = "<group>"; };
+		2CFAF47A008E2C620D3733C4DAB1A633 /* OadProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OadProfile.h; path = source/Profiles/OAD/OadProfile.h; sourceTree = "<group>"; };
+		30A264FFFF2FE91DFA18C43F00099AA5 /* BEAN_Globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEAN_Globals.h; path = source/BEAN_Globals.h; sourceTree = "<group>"; };
+		345B01703BA0DF89A81C661E0907D475 /* PTDBean.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBean.m; path = source/PTDBean.m; sourceTree = "<group>"; };
+		35FF2A165006576F95CDD0CE26B49851 /* PTDBean+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PTDBean+Protected.h"; path = "source/PTDBean+Protected.h"; sourceTree = "<group>"; };
+		398D107F7753E9752C98A48888F42C9F /* BatteryProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatteryProfile.h; path = source/Profiles/Battery/BatteryProfile.h; sourceTree = "<group>"; };
+		3ED2EDBFECFC21F7310594C37DEE8579 /* NSData+CRC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+CRC.h"; path = "source/Categories/NSData+CRC.h"; sourceTree = "<group>"; };
+		3FD0AF2D2D2E129B41A190CDF0F88FA0 /* PTDBleDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBleDevice.m; path = source/Profiles/PTDBleDevice.m; sourceTree = "<group>"; };
+		409C018247470277996DBBCC61574CC3 /* GattSerialMessageRxAssembler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialMessageRxAssembler.h; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessageRxAssembler.h"; sourceTree = "<group>"; };
+		41592CD210E23BA91229FE331300D966 /* GattSerialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattSerialProfile.m; path = "source/Profiles/Gatt Serial/GattSerialProfile.m"; sourceTree = "<group>"; };
+		45A993A088AAAEDD45DD2C5755599C17 /* Bean-iOS-OSX-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bean-iOS-OSX-SDK-prefix.pch"; sourceTree = "<group>"; };
+		45CE8D43AE04E9060837828DE7F82C5C /* PTDBEAN_Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBEAN_Helper.m; path = source/Helper/PTDBEAN_Helper.m; sourceTree = "<group>"; };
+		45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4808A1CD9439508863317B368C902A8A /* Pods-iOSBluetoothLighting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSBluetoothLighting.release.xcconfig"; sourceTree = "<group>"; };
+		5C5EFB8B545F7A3C6D21CC87B03B3E1B /* GattSerialMessageRxAssembler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattSerialMessageRxAssembler.m; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessageRxAssembler.m"; sourceTree = "<group>"; };
+		5D1EE2C58BE4F95140CC393C8172684C /* PTDBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBean.h; path = source/Public/PTDBean.h; sourceTree = "<group>"; };
+		6377C4FFFCE8999278A34EB07D9734D8 /* GattSerialMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialMessage.h; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessage.h"; sourceTree = "<group>"; };
+		65E470D0B1274BAB019611EA20E50786 /* GattPacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattPacket.h; path = "source/Profiles/Gatt Serial/Transport/GattPacket.h"; sourceTree = "<group>"; };
+		68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		69FD896371EF21403A5FDAA7B9DF69A3 /* BEAN_Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEAN_Helper.m; path = source/Helper/BEAN_Helper.m; sourceTree = "<group>"; };
+		6E16A26EAF007F1E363B17DE48BAF609 /* GattPacket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattPacket.m; path = "source/Profiles/Gatt Serial/Transport/GattPacket.m"; sourceTree = "<group>"; };
+		7543CCF1ACF8CB48B46291C9498EB8B6 /* BatteryProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BatteryProfile.m; path = source/Profiles/Battery/BatteryProfile.m; sourceTree = "<group>"; };
+		7AE5C3A2D44948798E9D4A8505A5110D /* oad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oad.h; path = source/Profiles/OAD/oad.h; sourceTree = "<group>"; };
+		7E123F58D0BB2289A4E5B5CEEC099786 /* PTDBeanManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBeanManager.h; path = source/Public/PTDBeanManager.h; sourceTree = "<group>"; };
+		80A2C16F29EC7613FC47D552A80EDD39 /* Bean-iOS-OSX-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Bean-iOS-OSX-SDK.xcconfig"; sourceTree = "<group>"; };
+		8519271CDBCE3D79DDBEC89B56A78EE9 /* BleProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BleProfile.m; path = source/Profiles/BleProfile.m; sourceTree = "<group>"; };
+		85E946937D19D5949F2A1837588C3873 /* DevInfoProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DevInfoProfile.h; path = "source/Profiles/Device Info/DevInfoProfile.h"; sourceTree = "<group>"; };
+		87131F4A9B52AB90F5E8AA1B9A2DC534 /* CBPeripheral+UniqueId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+UniqueId.m"; path = "source/Categories/CBPeripheral+UniqueId.m"; sourceTree = "<group>"; };
+		87EBA736A36BEA87674571258A1DCFA8 /* 201504270003_BEAN_imgB.bin */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.macbinary; name = 201504270003_BEAN_imgB.bin; path = firmware/201504270003_BEAN_imgB.bin; sourceTree = "<group>"; };
+		8B9E14E4EAA3A6E2DE36323A32738BC2 /* CBPeripheral+RSSI_Universal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+RSSI_Universal.h"; path = "source/Categories/CBPeripheral+RSSI_Universal.h"; sourceTree = "<group>"; };
+		94A3AB60A53D23C0A87CDBC2265BE0CC /* GattSerialMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattSerialMessage.m; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessage.m"; sourceTree = "<group>"; };
+		9A64C9B821AF932BF6A229DC90C5EFF5 /* GattSerialTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattSerialTransport.m; path = "source/Profiles/Gatt Serial/Transport/GattSerialTransport.m"; sourceTree = "<group>"; };
+		9ECE77E35B04BCECD7B642D913178CD5 /* Pods-iOSBluetoothLighting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSBluetoothLighting-frameworks.sh"; sourceTree = "<group>"; };
+		A45C58A1C65F889217E91379B428DB98 /* libBean-iOS-OSX-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBean-iOS-OSX-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D5791DDFE2C1F2713BCC1C6CD6B245 /* GattSerialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialProfile.h; path = "source/Profiles/Gatt Serial/GattSerialProfile.h"; sourceTree = "<group>"; };
+		A78AFE636ED15FA82BCEB27E0F41B24B /* CBPeripheral+UniqueId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+UniqueId.h"; path = "source/Categories/CBPeripheral+UniqueId.h"; sourceTree = "<group>"; };
+		A87B6EBC0550923DB01814761DFAB446 /* Pods-iOSBluetoothLighting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSBluetoothLighting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA198F83FA41A7CA221396F9AFDAC9CE /* GattCharacteristicObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattCharacteristicObserver.h; path = "source/Profiles/Gatt Serial/Transport/GattCharacteristicObserver.h"; sourceTree = "<group>"; };
+		B57FC4FF1D44D27E1753F7B6717C359B /* BEAN_Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEAN_Helper.h; path = source/Helper/BEAN_Helper.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDDB659DEC87D04BD75DC494DC623BCF /* PTDBeanRemoteFirmwareVersionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBeanRemoteFirmwareVersionManager.m; path = source/Helper/PTDBeanRemoteFirmwareVersionManager.m; sourceTree = "<group>"; };
+		BE3F40CC611D9C97B132924AE009A3B7 /* Pods-iOSBluetoothLighting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSBluetoothLighting-dummy.m"; sourceTree = "<group>"; };
+		C3F25CA5985CC73F99549DB3E1E0E0C8 /* NSData+CRC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+CRC.m"; path = "source/Categories/NSData+CRC.m"; sourceTree = "<group>"; };
+		C8DB9CA4E01431311759D230BEAC109B /* Bean-iOS-OSX-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bean-iOS-OSX-SDK-dummy.m"; sourceTree = "<group>"; };
+		CF5013DCE00C29B7040231C65EAB5632 /* AppMessageTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppMessageTypes.h; path = "App Message Definitions/AppMessageTypes.h"; sourceTree = "<group>"; };
+		D0FA152DC75188F638648F51445E057F /* PTDBeanManager+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PTDBeanManager+Protected.h"; path = "source/PTDBeanManager+Protected.h"; sourceTree = "<group>"; };
+		D1199DA0630C08F7793AADF381371C5D /* Pods-iOSBluetoothLighting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSBluetoothLighting.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A5328AEF40DFDDEDCB8A0EE014AAD9 /* 201504270003_BEAN_imgA.bin */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.macbinary; name = 201504270003_BEAN_imgA.bin; path = firmware/201504270003_BEAN_imgA.bin; sourceTree = "<group>"; };
+		D68A25E5513604605C163E86582A5167 /* PTDBEAN_Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBEAN_Helper.h; path = source/Helper/PTDBEAN_Helper.h; sourceTree = "<group>"; };
+		DF7C0932E916A324BC1DDEF6E8B2B37C /* AppMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppMessages.h; path = "App Message Definitions/AppMessages.h"; sourceTree = "<group>"; };
+		E1BF52C6F48D0D95907F3D017E06DE87 /* libPods-iOSBluetoothLighting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSBluetoothLighting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58726A40BE4E6E8EF9DBD88205348C2 /* GattTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattTransport.m; path = "source/Profiles/Gatt Serial/Transport/GattTransport.m"; sourceTree = "<group>"; };
+		F03DA0907A26C8928DA7D0F0D7A0A73C /* PTDBeanRemoteFirmwareVersionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBeanRemoteFirmwareVersionManager.h; path = source/Helper/PTDBeanRemoteFirmwareVersionManager.h; sourceTree = "<group>"; };
+		F2F2D72F8123A230AA5A93430EC91FE1 /* PTDBeanRadioConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBeanRadioConfig.m; path = source/PTDBeanRadioConfig.m; sourceTree = "<group>"; };
+		F5ACA75C4DC48F204C96C643DCB49CBA /* ProfileDelegate_Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProfileDelegate_Protocol.h; path = source/Profiles/ProfileDelegate_Protocol.h; sourceTree = "<group>"; };
+		FC8101C7D8A9BBCD660A892C6FA34821 /* BleProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BleProfile.h; path = source/Profiles/BleProfile.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		674C1F437E6D39278D3F3C14E56C522A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F66CF38D67CC44B79858F94EE50272 /* CoreBluetooth.framework in Frameworks */,
+				0C264FF85393A76CE3D0536229943132 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ECC0B307930AA1A557A520ED3508AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28478B6ADD1CF39591651565F1AE8B73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1324258606318786B0E7D2C87D25B5BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80A2C16F29EC7613FC47D552A80EDD39 /* Bean-iOS-OSX-SDK.xcconfig */,
+				C8DB9CA4E01431311759D230BEAC109B /* Bean-iOS-OSX-SDK-dummy.m */,
+				45A993A088AAAEDD45DD2C5755599C17 /* Bean-iOS-OSX-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bean-iOS-OSX-SDK";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848E9F7290E8287ED50D07E9DAF7EA84 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5074D9128E8BD2C921CD384E2E39CA83 /* Pods-iOSBluetoothLighting */ = {
+			isa = PBXGroup;
+			children = (
+				A87B6EBC0550923DB01814761DFAB446 /* Pods-iOSBluetoothLighting-acknowledgements.markdown */,
+				038E4DD60098B4BA42F3CFD4FC6A8643 /* Pods-iOSBluetoothLighting-acknowledgements.plist */,
+				BE3F40CC611D9C97B132924AE009A3B7 /* Pods-iOSBluetoothLighting-dummy.m */,
+				9ECE77E35B04BCECD7B642D913178CD5 /* Pods-iOSBluetoothLighting-frameworks.sh */,
+				177EF2D7971975308D243F932E7D7582 /* Pods-iOSBluetoothLighting-resources.sh */,
+				D1199DA0630C08F7793AADF381371C5D /* Pods-iOSBluetoothLighting.debug.xcconfig */,
+				4808A1CD9439508863317B368C902A8A /* Pods-iOSBluetoothLighting.release.xcconfig */,
+			);
+			name = "Pods-iOSBluetoothLighting";
+			path = "Target Support Files/Pods-iOSBluetoothLighting";
+			sourceTree = "<group>";
+		};
+		508E63912FA08BB4567158012A1D3BB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EA01A6B866529C22BB5242667FD8562 /* Bean-iOS-OSX-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D96C55F9607F31AABB459471E68799B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5074D9128E8BD2C921CD384E2E39CA83 /* Pods-iOSBluetoothLighting */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79F8B71C8C65DFB8E99E2522BCD14293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45C58A1C65F889217E91379B428DB98 /* libBean-iOS-OSX-SDK.a */,
+				E1BF52C6F48D0D95907F3D017E06DE87 /* libPods-iOSBluetoothLighting.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				508E63912FA08BB4567158012A1D3BB3 /* Pods */,
+				79F8B71C8C65DFB8E99E2522BCD14293 /* Products */,
+				6D96C55F9607F31AABB459471E68799B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848E9F7290E8287ED50D07E9DAF7EA84 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */,
+				45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8EA01A6B866529C22BB5242667FD8562 /* Bean-iOS-OSX-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C0932E916A324BC1DDEF6E8B2B37C /* AppMessages.h */,
+				CF5013DCE00C29B7040231C65EAB5632 /* AppMessageTypes.h */,
+				1683D96328CF39E519C878C794EDAD12 /* AppMessagingLayer.h */,
+				271943BAE7E7CB93289272D827ED39C7 /* AppMessagingLayer.m */,
+				398D107F7753E9752C98A48888F42C9F /* BatteryProfile.h */,
+				7543CCF1ACF8CB48B46291C9498EB8B6 /* BatteryProfile.m */,
+				30A264FFFF2FE91DFA18C43F00099AA5 /* BEAN_Globals.h */,
+				B57FC4FF1D44D27E1753F7B6717C359B /* BEAN_Helper.h */,
+				69FD896371EF21403A5FDAA7B9DF69A3 /* BEAN_Helper.m */,
+				FC8101C7D8A9BBCD660A892C6FA34821 /* BleProfile.h */,
+				8519271CDBCE3D79DDBEC89B56A78EE9 /* BleProfile.m */,
+				8B9E14E4EAA3A6E2DE36323A32738BC2 /* CBPeripheral+RSSI_Universal.h */,
+				211755D4486495A4D907186CAD4565B8 /* CBPeripheral+RSSI_Universal.m */,
+				A78AFE636ED15FA82BCEB27E0F41B24B /* CBPeripheral+UniqueId.h */,
+				87131F4A9B52AB90F5E8AA1B9A2DC534 /* CBPeripheral+UniqueId.m */,
+				85E946937D19D5949F2A1837588C3873 /* DevInfoProfile.h */,
+				0294A1444F2CAF11AE9A7A0A825A2A64 /* DevInfoProfile.m */,
+				27F676DD1769C37221F3997E4A43333E /* GattCharacteristicHandler.h */,
+				AA198F83FA41A7CA221396F9AFDAC9CE /* GattCharacteristicObserver.h */,
+				65E470D0B1274BAB019611EA20E50786 /* GattPacket.h */,
+				6E16A26EAF007F1E363B17DE48BAF609 /* GattPacket.m */,
+				6377C4FFFCE8999278A34EB07D9734D8 /* GattSerialMessage.h */,
+				94A3AB60A53D23C0A87CDBC2265BE0CC /* GattSerialMessage.m */,
+				409C018247470277996DBBCC61574CC3 /* GattSerialMessageRxAssembler.h */,
+				5C5EFB8B545F7A3C6D21CC87B03B3E1B /* GattSerialMessageRxAssembler.m */,
+				A4D5791DDFE2C1F2713BCC1C6CD6B245 /* GattSerialProfile.h */,
+				41592CD210E23BA91229FE331300D966 /* GattSerialProfile.m */,
+				1737032733219EBFC5D551581D81884F /* GattSerialTransport.h */,
+				9A64C9B821AF932BF6A229DC90C5EFF5 /* GattSerialTransport.m */,
+				2673FDF91540A918A212B6334D3C59B4 /* GattTransport.h */,
+				E58726A40BE4E6E8EF9DBD88205348C2 /* GattTransport.m */,
+				3ED2EDBFECFC21F7310594C37DEE8579 /* NSData+CRC.h */,
+				C3F25CA5985CC73F99549DB3E1E0E0C8 /* NSData+CRC.m */,
+				7AE5C3A2D44948798E9D4A8505A5110D /* oad.h */,
+				2CFAF47A008E2C620D3733C4DAB1A633 /* OadProfile.h */,
+				14FE2F1E50E96AA44DAF8EDB99CE6F87 /* OadProfile.m */,
+				2BB714D4292AE026CD11D8F1D38E6684 /* Profile_Protocol.h */,
+				F5ACA75C4DC48F204C96C643DCB49CBA /* ProfileDelegate_Protocol.h */,
+				5D1EE2C58BE4F95140CC393C8172684C /* PTDBean.h */,
+				345B01703BA0DF89A81C661E0907D475 /* PTDBean.m */,
+				35FF2A165006576F95CDD0CE26B49851 /* PTDBean+Protected.h */,
+				D68A25E5513604605C163E86582A5167 /* PTDBEAN_Helper.h */,
+				45CE8D43AE04E9060837828DE7F82C5C /* PTDBEAN_Helper.m */,
+				7E123F58D0BB2289A4E5B5CEEC099786 /* PTDBeanManager.h */,
+				2C9F6717C821176F5C4E397DCAF805AE /* PTDBeanManager.m */,
+				D0FA152DC75188F638648F51445E057F /* PTDBeanManager+Protected.h */,
+				2148616BEB0B963CCCD8B856AC281E03 /* PTDBeanRadioConfig.h */,
+				F2F2D72F8123A230AA5A93430EC91FE1 /* PTDBeanRadioConfig.m */,
+				F03DA0907A26C8928DA7D0F0D7A0A73C /* PTDBeanRemoteFirmwareVersionManager.h */,
+				BDDB659DEC87D04BD75DC494DC623BCF /* PTDBeanRemoteFirmwareVersionManager.m */,
+				0050695B6B9B234DFE53FB81FAD84590 /* PTDBleDevice.h */,
+				3FD0AF2D2D2E129B41A190CDF0F88FA0 /* PTDBleDevice.m */,
+				C054531559C5B8B637672391C8A29B79 /* Resources */,
+				1324258606318786B0E7D2C87D25B5BF /* Support Files */,
+			);
+			path = "Bean-iOS-OSX-SDK";
+			sourceTree = "<group>";
+		};
+		C054531559C5B8B637672391C8A29B79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5A5328AEF40DFDDEDCB8A0EE014AAD9 /* 201504270003_BEAN_imgA.bin */,
+				87EBA736A36BEA87674571258A1DCFA8 /* 201504270003_BEAN_imgB.bin */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F2E29CDD4FAE0BAAC5797E578DE1AD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E0D0792E83A8744027A7DE204E034A /* AppMessages.h in Headers */,
+				B9EA718E9DCE5F14AA99FBFE24B51752 /* AppMessageTypes.h in Headers */,
+				DA73C861598631D33A437189E190AE70 /* AppMessagingLayer.h in Headers */,
+				FC7CCD2345EA6014171816AA59C6DDFD /* BatteryProfile.h in Headers */,
+				F3B409CC5B4FD8370804FD7864B34C38 /* BEAN_Globals.h in Headers */,
+				78BF1744CF62424641257F00E738B811 /* BEAN_Helper.h in Headers */,
+				2FCA5C50464975D2E4426233F5BAB91C /* BleProfile.h in Headers */,
+				B0304F1649796D61B33D0B20F7764A22 /* CBPeripheral+RSSI_Universal.h in Headers */,
+				B5BBB6CA0B3CB8339D672043F46952F9 /* CBPeripheral+UniqueId.h in Headers */,
+				28F8E63DB732908315C4722847C192F1 /* DevInfoProfile.h in Headers */,
+				42D8ED32592F144529D2EBBF388A0BC7 /* GattCharacteristicHandler.h in Headers */,
+				33084F340F5429E9E89F53BD99F6A8EE /* GattCharacteristicObserver.h in Headers */,
+				08BB5FCA78EE107F6F107B4B9B6BF53C /* GattPacket.h in Headers */,
+				C0CBC58C5D86A84EF672B1AF9E47B47E /* GattSerialMessage.h in Headers */,
+				E3EF0C09EAE6A12ED20DA8561A0C3B58 /* GattSerialMessageRxAssembler.h in Headers */,
+				4A7742D648E62F0D5B3F026FD0ECF339 /* GattSerialProfile.h in Headers */,
+				35BECFB567B4ADEBEDA5F3AA5EC3787A /* GattSerialTransport.h in Headers */,
+				CC0F158E624E47A622B86AEB6E1B71FE /* GattTransport.h in Headers */,
+				3532E8755076C921177E6DF3CB589071 /* NSData+CRC.h in Headers */,
+				5C18AE87C7A868B59A18A1791712A727 /* oad.h in Headers */,
+				A89941B0E3C31D488D1B77A06B7C9AC3 /* OadProfile.h in Headers */,
+				0AC2E922E5023B4E2AF0707AFBFD7A4A /* Profile_Protocol.h in Headers */,
+				BF9EE110C193D45D199E0EF7CEE83C29 /* ProfileDelegate_Protocol.h in Headers */,
+				2F802357608CC420DDBD56FD7084FB0D /* PTDBean+Protected.h in Headers */,
+				BE6E9805BFE6AE7CE89674441E3DD3BD /* PTDBean.h in Headers */,
+				B26AA866B3192F4EC4B8CEAADCC2B8AC /* PTDBEAN_Helper.h in Headers */,
+				FA61914F1F6934B9633E349BE8428B04 /* PTDBeanManager+Protected.h in Headers */,
+				34A099DF1E9849357BB8E859639B6677 /* PTDBeanManager.h in Headers */,
+				A10BD32D577B9A053E2EA2124DE6CE4B /* PTDBeanRadioConfig.h in Headers */,
+				79EB8AE15784D5352D531F714C856193 /* PTDBeanRemoteFirmwareVersionManager.h in Headers */,
+				A486C690FC4C20122F70CDA034A59F5E /* PTDBleDevice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C4A7AD4E4CDBCFB1DDE37F0E4F276AA /* Pods-iOSBluetoothLighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463CD57FBDE528830EE98F7F030ADE52 /* Build configuration list for PBXNativeTarget "Pods-iOSBluetoothLighting" */;
+			buildPhases = (
+				045F18EF7470CF1E0CBFAAC37BAD6825 /* Sources */,
+				B5ECC0B307930AA1A557A520ED3508AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289D5B0E0B3B9634B8342D239DAD2432 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSBluetoothLighting";
+			productName = "Pods-iOSBluetoothLighting";
+			productReference = E1BF52C6F48D0D95907F3D017E06DE87 /* libPods-iOSBluetoothLighting.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF6F2E1DC83107BCB789DBEDA297534B /* Bean-iOS-OSX-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC8CC19490B96874E5A3770BED810FE /* Build configuration list for PBXNativeTarget "Bean-iOS-OSX-SDK" */;
+			buildPhases = (
+				456D30E2686B1E385E99DF8D57EDF056 /* Sources */,
+				674C1F437E6D39278D3F3C14E56C522A /* Frameworks */,
+				5F2E29CDD4FAE0BAAC5797E578DE1AD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bean-iOS-OSX-SDK";
+			productName = "Bean-iOS-OSX-SDK";
+			productReference = A45C58A1C65F889217E91379B428DB98 /* libBean-iOS-OSX-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 79F8B71C8C65DFB8E99E2522BCD14293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF6F2E1DC83107BCB789DBEDA297534B /* Bean-iOS-OSX-SDK */,
+				5C4A7AD4E4CDBCFB1DDE37F0E4F276AA /* Pods-iOSBluetoothLighting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045F18EF7470CF1E0CBFAAC37BAD6825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78D51930451A3E7CE03468B1FD1116E /* Pods-iOSBluetoothLighting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456D30E2686B1E385E99DF8D57EDF056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453039E73CA52B69960FBC3C2FD2065F /* AppMessagingLayer.m in Sources */,
+				DB81F19D9F05C67A5D9A11B4220DF817 /* BatteryProfile.m in Sources */,
+				BA428C6E4AB844F7757BD981868A27A7 /* Bean-iOS-OSX-SDK-dummy.m in Sources */,
+				0B58FAE3080C2CF627C467F4E2211B3B /* BEAN_Helper.m in Sources */,
+				32E8FD477440212600CBC4D0D30075E2 /* BleProfile.m in Sources */,
+				72BFFEB70D56087689522066C8C75189 /* CBPeripheral+RSSI_Universal.m in Sources */,
+				F1CA0C7B651B4A93B174634ABA0E2C4C /* CBPeripheral+UniqueId.m in Sources */,
+				E2AF8BBC1416AF3AE21B70AEFA187437 /* DevInfoProfile.m in Sources */,
+				32816C1BF1B1EF77F3FB531B29D88BD8 /* GattPacket.m in Sources */,
+				6E1E0933A6F434416324F4ED04735819 /* GattSerialMessage.m in Sources */,
+				7E2906D349077F04B4A2C7DCAA7874E3 /* GattSerialMessageRxAssembler.m in Sources */,
+				B2AD0D48D11EBBC50BCDB490E43BD642 /* GattSerialProfile.m in Sources */,
+				33D04B0D26008628C03D08D6837B99AD /* GattSerialTransport.m in Sources */,
+				DA9B5AD1E4194D8331D4CD8CF4FFD7E3 /* GattTransport.m in Sources */,
+				42FDC22237F0BA926F3C628DD4A5732A /* NSData+CRC.m in Sources */,
+				7323580171460A07813C6B83651F014C /* OadProfile.m in Sources */,
+				65760CB33732DF6463D4B35EDB562715 /* PTDBean.m in Sources */,
+				515B27DCE750510ED61CB5B4482EBFED /* PTDBEAN_Helper.m in Sources */,
+				DE12B27FB5CA7D1CFD0BDA18A51D9574 /* PTDBeanManager.m in Sources */,
+				1FAB9D771331562B1A68EA1DC31C98AB /* PTDBeanRadioConfig.m in Sources */,
+				9F3EF3400D3D8554D6F841C20C89AFB6 /* PTDBeanRemoteFirmwareVersionManager.m in Sources */,
+				1848413180139B41031745C53743096C /* PTDBleDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		289D5B0E0B3B9634B8342D239DAD2432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bean-iOS-OSX-SDK";
+			target = CF6F2E1DC83107BCB789DBEDA297534B /* Bean-iOS-OSX-SDK */;
+			targetProxy = DD0384D1E825D2B7D4E12966231F5C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18488814A90B7BB536E2E8F65DCB4E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A2C16F29EC7613FC47D552A80EDD39 /* Bean-iOS-OSX-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bean-iOS-OSX-SDK/Bean-iOS-OSX-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6008DA78CA064C5AE8BC1130E7EDEC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A2C16F29EC7613FC47D552A80EDD39 /* Bean-iOS-OSX-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bean-iOS-OSX-SDK/Bean-iOS-OSX-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89B128F9D21AF8083540102BD68F77DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1199DA0630C08F7793AADF381371C5D /* Pods-iOSBluetoothLighting.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9A0FEE4DE0434C3BE4E5970BDD8A2E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4808A1CD9439508863317B368C902A8A /* Pods-iOSBluetoothLighting.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463CD57FBDE528830EE98F7F030ADE52 /* Build configuration list for PBXNativeTarget "Pods-iOSBluetoothLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B128F9D21AF8083540102BD68F77DD /* Debug */,
+				9A0FEE4DE0434C3BE4E5970BDD8A2E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC8CC19490B96874E5A3770BED810FE /* Build configuration list for PBXNativeTarget "Bean-iOS-OSX-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18488814A90B7BB536E2E8F65DCB4E8E /* Debug */,
+				6008DA78CA064C5AE8BC1130E7EDEC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
