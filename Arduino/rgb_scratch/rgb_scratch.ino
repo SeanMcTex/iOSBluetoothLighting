@@ -46,25 +46,18 @@ void colorWipe( uint32_t c, uint8_t wait ) {
 
 bool compareScratch( ScratchData * scratch1, ScratchData * scratch2 )
 {
-  bool matched = true;
-
   if ( scratch1->length != scratch2->length ) {
-    matched = false;
+    return false;
   }
   else {
-    int length = min( scratch1->length, scratch2->length );
-    int i = 0;
-
-    while ( i < length ) {
+    for( int i=0; scratch1->length; i++ ) {
       if ( scratch1->data[i] != scratch2->data[i] ) {
-        matched = false;
-        i = length;
+        return false;
       }
-      i++;
     }
   }
 
-  return matched;
+  return true;
 }
 
 // the loop routine runs over and over again forever:
